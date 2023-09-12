@@ -1,0 +1,27 @@
+{
+  "name": "emilyportfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Emily Halva (v cute)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev --prefix emily-portfolio",
+    "build": "npm install --prefix emily-portfolio && npm run build --prefix emily-portfolio",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleKryza/EmilyPortfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Emily Halva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleKryza/EmilyPortfolio/issues"
+  },
+  "homepage": "https://github.com/KyleKryza/EmilyPortfolio#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
