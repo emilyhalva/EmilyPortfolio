@@ -49,19 +49,15 @@ export default {
             <v-btn variant="text" @click="scrollToElement('projects', -100)">Projects</v-btn>
             <v-btn variant="text" @click="scrollToElement('contact', -100)">Contact</v-btn>
         </div>
-      </v-app-bar>
+    </v-app-bar>
 
-      <v-navigation-drawer
-        v-model="drawer"
-        location="left"
-        temporary
-      >
+    <v-navigation-drawer v-model="drawer" location="left" temporary>
         <v-list>
             <v-list-item v-for="item in items" :key="item.text" @click="scrollToElement(item.to, -60); drawer = false;">
                 <v-list-item-title>{{ item.text }}</v-list-item-title>
             </v-list-item>
         </v-list>
-      </v-navigation-drawer>
+    </v-navigation-drawer>
 </template>
 
 <style>
