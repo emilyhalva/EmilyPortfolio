@@ -2,7 +2,6 @@
   <v-app>
     <v-main>
       <NavBar/>
-      <div id="home"></div>
       <About/>
       <Projects/>
       <Contact/>
