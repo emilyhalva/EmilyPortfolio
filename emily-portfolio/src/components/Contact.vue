@@ -12,6 +12,6 @@
 <style>
     .contact {
         height: 1000px;
-        background: lightpink;
+       
     }
 </style>

@@ -40,7 +40,7 @@ export default {
 </script>
 
 <template>
-    <v-app-bar color="purple-lighten-2" prominent>
+    <v-app-bar color="#fec484" prominent>
         <v-app-bar-nav-icon v-if="isMobile()" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>Emily's Portfolio</v-toolbar-title>
         <v-spacer></v-spacer>

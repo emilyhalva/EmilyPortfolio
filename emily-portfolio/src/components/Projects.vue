@@ -12,6 +12,6 @@
 <style>
     .project {
         height: 1000px;
-        background: lightblue;
+       
     }
 </style>
