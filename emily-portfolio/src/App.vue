@@ -1,6 +1,6 @@
 <template>
    <v-app>
-    <v-main class="background">
+    <v-main class="mainBackground">
       <NavBar/>
       <div class="avatar">
         <div class="centered-text"> 
@@ -28,10 +28,11 @@
 </script>
 
 <style>
- .background{
- background: rgb(226,166,255);
-background: radial-gradient(circle, rgba(226,166,255,1) 0%, rgba(255,178,250,1) 14%, rgba(254,196,132,1) 72%, rgba(255,253,177,1) 100%);
-
+ .mainBackground{
+ /*background: rgb(226,166,255);
+background: radial-gradient(circle, rgba(226,166,255,1) 0%, rgba(255,178,250,1) 14%, rgba(254,196,132,1) 72%, rgba(255,253,177,1) 100%); */
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   
 }
 
@@ -65,6 +66,11 @@ background: radial-gradient(circle, rgba(226,166,255,1) 0%, rgba(255,178,250,1) 
 
 .centered-text{
   text-align: center;
+}
+
+img{
+  border-radius: 70px;
+  box-shadow: 10px 10px 10px 10px #ffffffcf
 }
 
 
