@@ -40,12 +40,13 @@ export default {
 </script>
 
 <template>
-    <v-app-bar color="#eeaeca" prominent>
+    <v-app-bar color="#f5cedf" prominent>
         <v-app-bar-nav-icon v-if="isMobile()" variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>Emily's Portfolio</v-toolbar-title>
         <v-spacer></v-spacer>
         <div v-if="!isMobile()">
             <v-btn variant="text" @click="scrollToElement('about', -100)">About</v-btn>
+            <v-btn variant="text" @click="scrollToElement('projects', -100)">Skills</v-btn>
             <v-btn variant="text" @click="scrollToElement('projects', -100)">Projects</v-btn>
             <v-btn variant="text" @click="scrollToElement('contact', -100)">Contact</v-btn>
         </div>

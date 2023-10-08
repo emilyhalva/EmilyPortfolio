@@ -14,6 +14,7 @@
       </div>
 
       <About/>
+      <Skills/>
       <Projects/>
       <Contact/>
     </v-main>
@@ -23,6 +24,7 @@
 <script setup>
   import NavBar from './components/Header.vue';
   import About from './components/About.vue';
+  import Skills from './components/Skills.vue';
   import Projects from './components/Projects.vue';
   import Contact from './components/Contact.vue';
 </script>
