@@ -15,6 +15,7 @@
     .Home {
         height: 100vh;
         background-image: url("../Resources/GradientOverlay.png");
+        background-size: cover;  /* Makes background img responsive */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -25,7 +26,7 @@
     }
     #welcomeMsg {
         text-align: left;
-        padding-left: 10px;
+        margin-left: 60px;
         padding-right: 100px;
         font-size: 2em;
         color: #156669;
@@ -33,7 +34,7 @@
     }
     #collageImg {
         width: 450px;
-        padding-right: 10px;
+        margin-right: 60px;
         border-radius: 100%;
     }
 </style>

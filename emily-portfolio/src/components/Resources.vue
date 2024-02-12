@@ -13,5 +13,6 @@
     .Resources {
         height: 100vh;
         background-image:url("../Resources/GradientOverlay.png");
+        background-size: cover;
     }
 </style>
