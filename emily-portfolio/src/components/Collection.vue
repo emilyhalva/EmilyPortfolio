@@ -148,10 +148,9 @@ export default {
 <template>
   <div id="collection"></div>
   <div class="Collection">
-    <v-container>
-      <h1>Collection</h1>
-
-      <div id="clothingSegment">
+    <h1>Collection</h1>
+    <div id="clothingSegment">
+      <v-container>
         <h2>Clothing</h2>
         <!-- Row for cards -->
         <v-row>
@@ -177,9 +176,11 @@ export default {
             </v-card>
           </v-col>
         </v-row>
-      </div>
+      </v-container>
+    </div>
 
-      <div id="flowersSegment">
+    <div id="flowersSegment">
+      <v-container>
         <h2>Flowers</h2>
         <!-- Row for cards -->
         <v-row>
@@ -197,9 +198,11 @@ export default {
             </v-card>
           </v-col>
         </v-row>
-      </div>
+      </v-container>
+    </div>
 
-      <div id="stuffedAnimalsSegment">
+    <div id="stuffedAnimalsSegment">
+      <v-container>
         <h2>Cuddle Buddies and Cutie Patooties</h2>
         <!-- Row for cards -->
         <v-row>
@@ -225,9 +228,11 @@ export default {
             </v-card>
           </v-col>
         </v-row>
-      </div>
+      </v-container>
+    </div>
 
-      <div id="othersSegment">
+    <div id="othersSegment">
+      <v-container>
         <h2>Miscelaneous Projects</h2>
         <!-- Row for cards -->
         <v-row>
@@ -245,8 +250,8 @@ export default {
             </v-card>
           </v-col>
         </v-row>
-      </div>
-    </v-container>
+      </v-container>
+    </div>
   </div>
 </template>
 
