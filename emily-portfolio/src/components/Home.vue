@@ -1,5 +1,4 @@
 <template>
-  <div id="home"></div>
   <div class="Home">
     <div class="content">
       <v-container>
