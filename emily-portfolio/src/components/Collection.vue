@@ -148,10 +148,10 @@ export default {
 <template>
   <div id="collection"></div>
   <div class="Collection">
-    <h1>Collection</h1>
+    <h1 style="text-align: center">Collection</h1>
     <div id="clothingSegment">
       <v-container>
-        <h2>Clothing</h2>
+        <h2 style="text-align: center">Clothing</h2>
         <!-- Row for cards -->
         <v-row>
           <v-col
@@ -181,7 +181,7 @@ export default {
 
     <div id="flowersSegment">
       <v-container>
-        <h2>Flowers</h2>
+        <h2 style="text-align: center">Flowers</h2>
         <!-- Row for cards -->
         <v-row>
           <v-col v-for="flowerPiece in flowers" cols="12" sm="6" md="4" lg="3">
@@ -203,7 +203,7 @@ export default {
 
     <div id="stuffedAnimalsSegment">
       <v-container>
-        <h2>Cuddle Buddies and Cutie Patooties</h2>
+        <h2 style="text-align: center">Cuddle Buddies and Cutie Patooties</h2>
         <!-- Row for cards -->
         <v-row>
           <v-col
@@ -233,7 +233,7 @@ export default {
 
     <div id="othersSegment">
       <v-container>
-        <h2>Miscelaneous Projects</h2>
+        <h2 style="text-align: center">Miscelaneous Projects</h2>
         <!-- Row for cards -->
         <v-row>
           <v-col v-for="otherPiece in others" cols="12" sm="6" md="4" lg="3">
