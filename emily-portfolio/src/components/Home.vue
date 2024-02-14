@@ -64,5 +64,7 @@
 }
 #collageImg {
   border-radius: 100%;
+  border: 2px solid #215338;
+  box-shadow: 0 0 20px 5px #164f47;
 }
 </style>
