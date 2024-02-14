@@ -22,12 +22,12 @@
             </v-container>
           </v-col>
           <v-col cols="6">
-            <div class="d-flex justify-end align-center">
+            <div class="d-flex justify-end align-end h-100">
               <v-img
                 id="aboutAvatar"
                 width="100%"
                 height="auto"
-                max-width="400px"
+                max-width="450px"
                 aspect-ratio="1/1"
                 src="../Resources/crochetCyberAvatar.png"
               ></v-img>

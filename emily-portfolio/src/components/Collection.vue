@@ -148,7 +148,7 @@ export default {
 <template>
   <div id="collection"></div>
   <div class="Collection">
-    <h1 style="text-align: center">Collection</h1>
+    <h1 style="text-align: center; color: #156669">Collection</h1>
     <div id="clothingSegment">
       <v-container>
         <h2 style="text-align: center">Clothing</h2>
@@ -272,5 +272,8 @@ export default {
 
 #othersSegment {
   background-color: #fff2f7;
+}
+h2 {
+  color: #156669;
 }
 </style>

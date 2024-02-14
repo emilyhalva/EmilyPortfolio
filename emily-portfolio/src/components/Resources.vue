@@ -3,7 +3,7 @@
 <template>
   <div id="resources"></div>
   <div class="Resources">
-    <h1 style="text-align: center">Resources</h1>
+    <h1 style="text-align: center; color: #156669">Resources</h1>
   </div>
 </template>
 
