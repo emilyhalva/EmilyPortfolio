@@ -17,7 +17,7 @@
                 height="auto"
                 max-width="500px"
                 aspect-ratio="1/1"
-                src="../Resources/crochetCollage.png"
+                src="../../public/Resources/crochetCollage.png"
               ></v-img>
             </div>
           </v-col>

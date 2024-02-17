@@ -29,7 +29,7 @@
                 height="auto"
                 max-width="450px"
                 aspect-ratio="1/1"
-                src="../Resources/crochetCyberAvatar.png"
+                src="../../public/Resources/crochetCyberAvatar.png"
               ></v-img>
             </div>
           </v-col>

@@ -32,7 +32,7 @@ export default {
           name: "Grey Shorts",
           descriptions: 50,
           link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
+          image: "./Resources/greyShorts.jpg",
         },
         {
           name: "Hexagon Cardigan",
@@ -128,7 +128,7 @@ export default {
           name: "Bear Mug Cozie",
           descriptions: 30,
           link: "https://via.placeholder.com/150",
-          image: "../Resources/bearCozie.jpg",
+          image: "./Resources/bearCozie.jpg",
         },
         {
           name: "Farmers Market Tote",
@@ -162,7 +162,11 @@ export default {
             lg="3"
           >
             <v-card>
-              <v-img :src="clothingPiece.image" height="200px"></v-img>
+              <v-img
+                :src="clothingPiece.image"
+                height="200px"
+                cover="true"
+              ></v-img>
               <v-card-title>{{ clothingPiece.name }}</v-card-title>
               <v-card-subtitle>{{
                 clothingPiece.descriptions
@@ -211,6 +215,7 @@ export default {
               <v-img
                 src="https://via.placeholder.com/150"
                 height="200px"
+                cover="true"
               ></v-img>
               <v-card-title>{{ stuffedAnimal.name }}</v-card-title>
               <v-card-subtitle>{{
@@ -232,7 +237,11 @@ export default {
         <v-row>
           <v-col v-for="otherPiece in others" cols="12" sm="6" md="4" lg="3">
             <v-card>
-              <v-img :src="otherPiece.image" height="200px"></v-img>
+              <v-img
+                :src="otherPiece.image"
+                height="200px"
+                cover="true"
+              ></v-img>
               <v-card-title>{{ otherPiece.name }}</v-card-title>
               <v-card-subtitle>{{ otherPiece.descriptions }}</v-card-subtitle>
               <v-card-actions>
