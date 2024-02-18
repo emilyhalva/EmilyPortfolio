@@ -26,20 +26,20 @@ export default {
           name: "Sunset Shorts",
           descriptions: 40,
           link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
+          image: "./Resources/sunsetShorts.png",
         },
         {
           name: "Grey Shorts",
           descriptions: 50,
           link: "https://via.placeholder.com/150",
-          image: "./Resources/greyShorts.jpg",
+          image: "./Resources/greyShortsWhiteBack.png",
         },
-        {
-          name: "Hexagon Cardigan",
-          descriptions: 30,
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
+        // {
+        //   name: "Hexagon Cardigan",
+        //   descriptions: 30,
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
         {
           name: "Grunge Mesh Sweater",
           descriptions: 50,
@@ -50,7 +50,19 @@ export default {
           name: "Long Sleeve Top",
           descriptions: 50,
           link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
+          image: "./Resources/longsleeveShirt.png",
+        },
+        {
+          name: "Red Tank Top",
+          descriptions: 50,
+          link: "https://via.placeholder.com/150",
+          image: "./Resources/redTop.png",
+        },
+        {
+          name: "Orange Tank Top",
+          descriptions: 50,
+          link: "https://via.placeholder.com/150",
+          image: "./Resources/orangeTop.png",
         },
       ],
       flowers: [
@@ -64,7 +76,7 @@ export default {
           name: "White Roses",
           descriptions: 30,
           link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
+          image: "./Resources/whiteRoses.png",
         },
         {
           name: "Tulips",
@@ -187,7 +199,11 @@ export default {
         <v-row>
           <v-col v-for="flowerPiece in flowers" cols="12" sm="6" md="4" lg="3">
             <v-card>
-              <v-img src="../Resources/bearCozie.jpg" height="200px"></v-img>
+              <v-img
+                :src="flowerPiece.image"
+                height="200px"
+                cover="true"
+              ></v-img>
               <v-card-title>{{ flowerPiece.name }}</v-card-title>
               <v-card-subtitle>{{ flowerPiece.descriptions }}</v-card-subtitle>
               <v-card-actions>
