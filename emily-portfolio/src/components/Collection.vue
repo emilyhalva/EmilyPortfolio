@@ -130,6 +130,12 @@ export default {
           link: "https://via.placeholder.com/150",
           image: "./Resources/peachCoaster.png",
         },
+        {
+          name: "Green Decorative Cushion",
+          descriptions: 30,
+          link: "https://via.placeholder.com/150",
+          image: "./Resources/greenPillow.png",
+        },
         // {
         //   name: "Orange Coaster",
         //   descriptions: 40,
@@ -163,7 +169,7 @@ export default {
     <h1 style="text-align: center; color: #156669">Collection</h1>
     <div id="clothingSegment">
       <v-container>
-        <h2 style="text-align: center">Clothing</h2>
+        <h2 style="text-align: center">Garments</h2>
         <!-- Row for cards -->
         <v-row>
           <v-col
@@ -194,7 +200,7 @@ export default {
 
     <div id="flowersSegment">
       <v-container>
-        <h2 style="text-align: center">Flowers</h2>
+        <h2 style="text-align: center">Floral Arrangements</h2>
         <!-- Row for cards -->
         <v-row>
           <v-col v-for="flowerPiece in flowers" cols="12" sm="6" md="4" lg="3">
@@ -277,7 +283,7 @@ export default {
 }
 
 #clothingSegment {
-  background-color: #f7ede2;
+  background-color: #f9f7f3;
 }
 #flowersSegment {
   background-color: #deebe9;
