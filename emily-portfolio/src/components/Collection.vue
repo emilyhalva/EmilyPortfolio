@@ -4,24 +4,24 @@ export default {
   data() {
     return {
       clothes: [
-        {
-          name: "Cat Beanie",
-          descriptions: "cat description",
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
-        {
-          name: "Strawberry Cat Beanie",
-          descriptions: 30,
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
-        {
-          name: "Regular Beanie",
-          descriptions: 40,
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
+        // {
+        //   name: "Cat Beanie",
+        //   descriptions: "cat description",
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
+        // {
+        //   name: "Strawberry Cat Beanie",
+        //   descriptions: 30,
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
+        // {
+        //   name: "Regular Beanie",
+        //   descriptions: 40,
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
         {
           name: "Sunset Shorts",
           descriptions: 40,
@@ -40,12 +40,12 @@ export default {
         //   link: "https://via.placeholder.com/150",
         //   image: "https://via.placeholder.com/150",
         // },
-        {
-          name: "Grunge Mesh Sweater",
-          descriptions: 50,
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
+        // {
+        //   name: "Grunge Mesh Sweater",
+        //   descriptions: 50,
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
         {
           name: "Long Sleeve Top",
           descriptions: 50,
@@ -66,55 +66,55 @@ export default {
         },
       ],
       flowers: [
-        {
-          name: "Lavander",
-          descriptions: "pruple  description",
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
+        // {
+        //   name: "Lavander",
+        //   descriptions: "pruple  description",
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
         {
           name: "White Roses",
           descriptions: 30,
           link: "https://via.placeholder.com/150",
           image: "./Resources/whiteRoses.png",
         },
-        {
-          name: "Tulips",
-          descriptions: 40,
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
-        {
-          name: "White Roses",
-          descriptions: 30,
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
-        {
-          name: "Kylie",
-          descriptions: 40,
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
+        // {
+        //   name: "Tulips",
+        //   descriptions: 40,
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
+        // {
+        //   name: "White Roses",
+        //   descriptions: 30,
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
+        // {
+        //   name: "Kylie",
+        //   descriptions: 40,
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
       ],
       stuffedAnimals: [
         {
           name: "Chunky Bee",
           descriptions: "pruple  description",
           link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
+          image: "./Resources/chunky_bee_side.png",
         },
         {
           name: "Small Bee",
           descriptions: 30,
           link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
+          image: "./Resources/smallBee.png",
         },
         {
-          name: "Gnome",
+          name: "Chunky Christmas Gnome",
           descriptions: 40,
           link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
+          image: "./Resources/chunkyGnome.png",
         },
       ],
       others: [
@@ -122,32 +122,32 @@ export default {
           name: "Chunky Blanket",
           descriptions: "pruple  description",
           link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
+          image: "./Resources/greyBlanket1.png",
         },
         {
           name: "Peach Coaster",
           descriptions: 30,
           link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
+          image: "./Resources/peachCoaster.png",
         },
-        {
-          name: "Orange Coaster",
-          descriptions: 40,
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
+        // {
+        //   name: "Orange Coaster",
+        //   descriptions: 40,
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
         {
           name: "Bear Mug Cozie",
           descriptions: 30,
           link: "https://via.placeholder.com/150",
-          image: "./Resources/bearCozie.jpg",
+          image: "./Resources/bearCozie.png",
         },
-        {
-          name: "Farmers Market Tote",
-          descriptions: "pruple  description",
-          link: "https://via.placeholder.com/150",
-          image: "https://via.placeholder.com/150",
-        },
+        // {
+        //   name: "Farmers Market Tote",
+        //   descriptions: "pruple  description",
+        //   link: "https://via.placeholder.com/150",
+        //   image: "https://via.placeholder.com/150",
+        // },
       ],
     };
   },
@@ -229,7 +229,7 @@ export default {
           >
             <v-card>
               <v-img
-                src="https://via.placeholder.com/150"
+                :src="stuffedAnimal.image"
                 height="200px"
                 cover="true"
               ></v-img>

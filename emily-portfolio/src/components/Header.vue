@@ -54,12 +54,10 @@ export default {
       <v-btn variant="text" @click="scrollToElement('collection', -100)"
         >Collection</v-btn
       >
-      <v-btn variant="text" @click="scrollToElement('resources', -100)"
+      <!-- <v-btn variant="text" @click="scrollToElement('resources', -100)"
         >Resources</v-btn
-      >
-      <v-btn variant="text" @click="scrollToElement('about', -100)"
-        >About</v-btn
-      >
+      > -->
+      <v-btn variant="text" @click="scrollToElement('about', 0)">About</v-btn>
     </div>
   </v-app-bar>
 

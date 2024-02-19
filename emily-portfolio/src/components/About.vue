@@ -1,6 +1,7 @@
 <script></script>
 
 <template>
+  <div id="about"></div>
   <div class="About">
     <div class="content">
       <v-container style="margin-top: 5%">
