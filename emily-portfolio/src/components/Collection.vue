@@ -59,7 +59,8 @@ export default {
         // },
         {
           name: "Long Sleeve Top",
-          descriptions: 50,
+          descriptions:
+            "Experience the perfect blend of style and comfort in our crochet long sleeve white top, featuring a front tie and purple stripe accents at the back.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/longsleeveShirt.png",
         },
@@ -79,7 +80,8 @@ export default {
         },
         {
           name: "Green Tank Top",
-          descriptions: 50,
+          descriptions:
+            "Stylish green crochet tank top offers adjustable straps and a chic tie-back detail for a personalized fit.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/greenTankTop.png",
         },
@@ -93,7 +95,8 @@ export default {
         // },
         {
           name: "White Roses",
-          descriptions: 30,
+          descriptions:
+            "Embrace the timeless elegance of our crochet white rose bouquet, expertly crafted to bring a touch of natural charm to any space.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/whiteRoses.png",
         },
@@ -107,19 +110,22 @@ export default {
       stuffedAnimals: [
         {
           name: "Chunky Bee",
-          descriptions: "pruple  description",
+          descriptions:
+            "Meet your new cuddly companion – this adorable chunky bee is handmade with love and ready to bring a smile to your face",
           link: "https://via.placeholder.com/150",
           image: "./Resources/chunky_bee_side.png",
         },
         {
           name: "Small Bee",
-          descriptions: 30,
+          descriptions:
+            "This adorable crocheted bee brings a touch of handmade charm to any space.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/smallBee.png",
         },
         {
           name: "Chunky Christmas Gnome",
-          descriptions: 40,
+          descriptions:
+            "Capture the festive spirit with our Chunky Christmas Gnome! Crafted with care and bursting with holiday cheer, this adorable gnome is the perfect addition to your seasonal decor.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/chunkyGnome.png",
         },
@@ -127,19 +133,22 @@ export default {
       others: [
         {
           name: "Chunky Blanket",
-          descriptions: "pruple  description",
+          descriptions:
+            "Indulge in the softness of our handmade grey chunky crochet blanket. Perfect for snuggling up on cool evenings, it adds a cozy touch to any space.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/greyBlanket1.png",
         },
         {
           name: "Peach Coaster",
-          descriptions: 30,
+          descriptions:
+            "Add a sweet touch to your table with our peach crochet coaster, crafted with care for a charming addition to any setting.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/peachCoaster.png",
         },
         {
           name: "Green Decorative Cushion",
-          descriptions: 30,
+          descriptions:
+            "Elevate your space with our green crochet decorative pillow, offering both style and comfort.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/greenPillow.png",
         },
@@ -151,19 +160,22 @@ export default {
         // },
         {
           name: "Bear Mug Cozie",
-          descriptions: 30,
+          descriptions:
+            "Add a charming twist to your coffee breaks with our bear-shaped mug cozie, designed to keep your beverage warm and your spirits high.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/bearCozie.png",
         },
         {
           name: "Farmers Market Tote",
-          descriptions: "pruple  description",
+          descriptions:
+            "Effortlessly blend style and sustainability with our contemporary brown tote, ideal for transporting your favorite market finds.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/brownMarketBag.png",
         },
         {
           name: "Grey Bag",
-          descriptions: "pruple  description",
+          descriptions:
+            "Chic and functional, this grey crochet tote bag adds a touch of handmade charm to your everyday carry.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/greyBag.png",
         },
@@ -200,6 +212,9 @@ export default {
                 cover="true"
               ></v-img>
               <v-card-title>{{ clothingPiece.name }}</v-card-title>
+              <v-card-subtitle>{{
+                clothingPiece.descriptions
+              }}</v-card-subtitle>
 
               <!-- <v-card-actions>
                 <v-btn text>Tutorial</v-btn>
@@ -207,9 +222,7 @@ export default {
 
               <v-card-actions>
                 <v-btn color="#156669" variant="text"> Read More </v-btn>
-
                 <v-spacer></v-spacer>
-
                 <v-btn
                   :icon="
                     clothingPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
@@ -247,9 +260,32 @@ export default {
               ></v-img>
               <v-card-title>{{ flowerPiece.name }}</v-card-title>
               <v-card-subtitle>{{ flowerPiece.descriptions }}</v-card-subtitle>
-              <v-card-actions>
+              <!-- <v-card-actions>
                 <v-btn text>Tutorial</v-btn>
+              </v-card-actions> -->
+
+              <v-card-actions>
+                <v-btn color="#156669" variant="text"> Read More </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                  :icon="
+                    flowerPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
+                  "
+                  @click="flowerPiece.show = !flowerPiece.show"
+                ></v-btn>
               </v-card-actions>
+
+              <v-expand-transition up>
+                <div v-show="flowerPiece.show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    {{ flowerPiece.descriptions }}
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
             </v-card>
           </v-col>
         </v-row>
@@ -280,9 +316,32 @@ export default {
               <v-card-subtitle>{{
                 stuffedAnimal.descriptions
               }}</v-card-subtitle>
-              <v-card-actions>
+              <!-- <v-card-actions>
                 <v-btn text>Tutorial</v-btn>
+              </v-card-actions> -->
+
+              <v-card-actions>
+                <v-btn color="#156669" variant="text"> Read More </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                  :icon="
+                    stuffedAnimal.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
+                  "
+                  @click="stuffedAnimal.show = !stuffedAnimal.show"
+                ></v-btn>
               </v-card-actions>
+
+              <v-expand-transition up>
+                <div v-show="stuffedAnimal.show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    {{ stuffedAnimal.descriptions }}
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
             </v-card>
           </v-col>
         </v-row>
@@ -303,9 +362,32 @@ export default {
               ></v-img>
               <v-card-title>{{ otherPiece.name }}</v-card-title>
               <v-card-subtitle>{{ otherPiece.descriptions }}</v-card-subtitle>
-              <v-card-actions>
+              <!-- <v-card-actions>
                 <v-btn text>Tutorial</v-btn>
+              </v-card-actions> -->
+
+              <v-card-actions>
+                <v-btn color="#156669" variant="text"> Read More </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                  :icon="
+                    otherPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
+                  "
+                  @click="otherPiece.show = !otherPiece.show"
+                ></v-btn>
               </v-card-actions>
+
+              <v-expand-transition up>
+                <div v-show="otherPiece.show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    {{ otherPiece.descriptions }}
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
             </v-card>
           </v-col>
         </v-row>
@@ -334,5 +416,9 @@ export default {
 }
 h2 {
   color: #156669;
+  font-family: american typewriter;
+}
+h1 {
+  font-family: american typewriter;
 }
 </style>

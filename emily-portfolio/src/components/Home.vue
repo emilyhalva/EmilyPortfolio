@@ -48,16 +48,16 @@
   color: #156669;
   font-family: Oswald;
   flex: wrap;
+  text-shadow: #f6bbc0 2px 2px 0px, #f7c8cc 4px 4px 0px;
 
-  font-size: 90%;
   @media only screen and (min-width: 600px) {
-    font-size: 94%;
+    font-size: 1.2rem;
   }
   @media only screen and (min-width: 960px) {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   @media only screen and (min-width: 1280px) {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
   @media only screen and (min-width: 1904px) {
     font-size: 100%;
