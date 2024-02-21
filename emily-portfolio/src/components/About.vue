@@ -36,6 +36,8 @@
           </v-col>
         </v-row>
       </v-container>
+      <!-- 
+      <div>linkedin icons, email, github?</div> -->
     </div>
   </div>
 </template>

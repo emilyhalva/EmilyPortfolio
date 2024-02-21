@@ -16,21 +16,32 @@ export default {
         //   link: "https://via.placeholder.com/150",
         //   image: "https://via.placeholder.com/150",
         // },
-        // {
-        //   name: "Regular Beanie",
-        //   descriptions: 40,
-        //   link: "https://via.placeholder.com/150",
-        //   image: "https://via.placeholder.com/150",
-        // },
+        {
+          name: "Light Blue Beanie",
+          descriptions:
+            "Stay cozy and stylish with our blue beanie! Handcrafted from soft yarn, it's the perfect accessory to add a pop of color to your winter ensemble.",
+
+          link: "https://via.placeholder.com/150",
+          image: "./Resources/blueBeanie.png",
+        },
+        {
+          name: "Green Brown Beanie",
+          descriptions:
+            "Embrace nature's hues with our green brown beanie! Knit with care, it blends earthy tones for a versatile addition to any outfit.",
+          link: "https://via.placeholder.com/150",
+          image: "./Resources/greenBrownBeanie.png",
+        },
         {
           name: "Sunset Shorts",
-          descriptions: 40,
+          descriptions:
+            "Relax in style with our sunset lounge shorts! Crafted from breathable yarn in warm tones, they're perfect for lounging at home or strolling in comfort.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/sunsetShorts.png",
         },
         {
           name: "Grey Shorts",
-          descriptions: 50,
+          descriptions:
+            " Elevate your loungewear game with our grey shorts! Soft and comfortable, they're designed for lazy days at home or casual outings with friends.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/greyShortsWhiteBack.png",
         },
@@ -54,15 +65,23 @@ export default {
         },
         {
           name: "Red Tank Top",
-          descriptions: 50,
+          descriptions:
+            "Make a statement in our red tank top with a charming tie detail at the neck! Effortlessly chic, it's perfect for adding a touch of flair to your everyday look.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/redTop.png",
         },
         {
           name: "Orange Tank Top",
-          descriptions: 50,
+          descriptions:
+            "Embrace vibrant hues with our orange bralette! Crafted for both style and comfort, it's the perfect choice for adding a pop of color to your lingerie collection.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/orangeTop.png",
+        },
+        {
+          name: "Green Tank Top",
+          descriptions: 50,
+          link: "https://via.placeholder.com/150",
+          image: "./Resources/greenTankTop.png",
         },
       ],
       flowers: [
@@ -80,18 +99,6 @@ export default {
         },
         // {
         //   name: "Tulips",
-        //   descriptions: 40,
-        //   link: "https://via.placeholder.com/150",
-        //   image: "https://via.placeholder.com/150",
-        // },
-        // {
-        //   name: "White Roses",
-        //   descriptions: 30,
-        //   link: "https://via.placeholder.com/150",
-        //   image: "https://via.placeholder.com/150",
-        // },
-        // {
-        //   name: "Kylie",
         //   descriptions: 40,
         //   link: "https://via.placeholder.com/150",
         //   image: "https://via.placeholder.com/150",
@@ -148,13 +155,20 @@ export default {
           link: "https://via.placeholder.com/150",
           image: "./Resources/bearCozie.png",
         },
-        // {
-        //   name: "Farmers Market Tote",
-        //   descriptions: "pruple  description",
-        //   link: "https://via.placeholder.com/150",
-        //   image: "https://via.placeholder.com/150",
-        // },
+        {
+          name: "Farmers Market Tote",
+          descriptions: "pruple  description",
+          link: "https://via.placeholder.com/150",
+          image: "./Resources/brownMarketBag.png",
+        },
+        {
+          name: "Grey Bag",
+          descriptions: "pruple  description",
+          link: "https://via.placeholder.com/150",
+          image: "./Resources/greyBag.png",
+        },
       ],
+      // show: false,
     };
   },
   methods: {
@@ -169,7 +183,7 @@ export default {
     <h1 style="text-align: center; color: #156669">Collection</h1>
     <div id="clothingSegment">
       <v-container>
-        <h2 style="text-align: center">Garments</h2>
+        <h2 class="pb-4 text-center">Garments</h2>
         <!-- Row for cards -->
         <v-row>
           <v-col
@@ -186,12 +200,33 @@ export default {
                 cover="true"
               ></v-img>
               <v-card-title>{{ clothingPiece.name }}</v-card-title>
-              <v-card-subtitle>{{
-                clothingPiece.descriptions
-              }}</v-card-subtitle>
-              <v-card-actions>
+
+              <!-- <v-card-actions>
                 <v-btn text>Tutorial</v-btn>
+              </v-card-actions> -->
+
+              <v-card-actions>
+                <v-btn color="#156669" variant="text"> Read More </v-btn>
+
+                <v-spacer></v-spacer>
+
+                <v-btn
+                  :icon="
+                    clothingPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
+                  "
+                  @click="clothingPiece.show = !clothingPiece.show"
+                ></v-btn>
               </v-card-actions>
+
+              <v-expand-transition up>
+                <div v-show="clothingPiece.show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    {{ clothingPiece.descriptions }}
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
             </v-card>
           </v-col>
         </v-row>
@@ -200,7 +235,7 @@ export default {
 
     <div id="flowersSegment">
       <v-container>
-        <h2 style="text-align: center">Floral Arrangements</h2>
+        <h2 style="text-align: center" class="pb-4">Floral Arrangements</h2>
         <!-- Row for cards -->
         <v-row>
           <v-col v-for="flowerPiece in flowers" cols="12" sm="6" md="4" lg="3">
@@ -223,7 +258,9 @@ export default {
 
     <div id="stuffedAnimalsSegment">
       <v-container>
-        <h2 style="text-align: center">Cuddle Buddies and Cutie Patooties</h2>
+        <h2 style="text-align: center" class="pb-4">
+          Cuddle Buddies and Cutie Patooties
+        </h2>
         <!-- Row for cards -->
         <v-row>
           <v-col
@@ -254,7 +291,7 @@ export default {
 
     <div id="othersSegment">
       <v-container>
-        <h2 style="text-align: center">Miscelaneous Projects</h2>
+        <h2 style="text-align: center" class="pb-4">Miscellaneous Projects</h2>
         <!-- Row for cards -->
         <v-row>
           <v-col v-for="otherPiece in others" cols="12" sm="6" md="4" lg="3">
