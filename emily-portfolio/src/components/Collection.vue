@@ -193,7 +193,7 @@ export default {
   <div id="collection"></div>
   <div class="Collection">
     <h1 style="text-align: center; color: #156669">Collection</h1>
-    <div id="clothingSegment">
+    <div id="clothingSegment" class="pb-10">
       <v-container>
         <h2 class="pb-4 text-center">Garments</h2>
         <!-- Row for cards -->
@@ -246,7 +246,7 @@ export default {
       </v-container>
     </div>
 
-    <div id="flowersSegment">
+    <div id="flowersSegment" class="pb-10">
       <v-container>
         <h2 style="text-align: center" class="pb-4">Floral Arrangements</h2>
         <!-- Row for cards -->
@@ -292,7 +292,7 @@ export default {
       </v-container>
     </div>
 
-    <div id="stuffedAnimalsSegment">
+    <div id="stuffedAnimalsSegment" class="pb-10">
       <v-container>
         <h2 style="text-align: center" class="pb-4">
           Cuddle Buddies and Cutie Patooties
@@ -348,7 +348,7 @@ export default {
       </v-container>
     </div>
 
-    <div id="othersSegment">
+    <div id="othersSegment" class="pb-10">
       <v-container>
         <h2 style="text-align: center" class="pb-4">Miscellaneous Projects</h2>
         <!-- Row for cards -->
