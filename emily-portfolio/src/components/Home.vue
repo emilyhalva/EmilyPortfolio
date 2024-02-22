@@ -4,13 +4,14 @@
     <div class="content">
       <v-container>
         <v-row>
-          <v-col cols="6" align-self="center">
+          <!-- Media Query -->
+          <v-col cols="12" sm="12" md="6" align-self="center">
             <div id="welcomeMsg">
               <h2>Unwind and Explore: My Cozy Crochet Corner</h2>
               <p>Take a look around :)</p>
             </div>
           </v-col>
-          <v-col cols="6">
+          <v-col cols="12" sm="12" md="6">
             <div class="d-flex justify-end">
               <v-img
                 id="collageImg"
@@ -51,9 +52,11 @@
   text-shadow: #f6bbc0 2px 2px 0px, #f7c8cc 4px 4px 0px;
 
   @media only screen and (min-width: 600px) {
+    text-align: center;
     font-size: 1.2rem;
   }
   @media only screen and (min-width: 960px) {
+    text-align: left;
     font-size: 1.8rem;
   }
   @media only screen and (min-width: 1280px) {
