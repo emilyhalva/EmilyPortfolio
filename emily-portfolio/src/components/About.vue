@@ -79,7 +79,7 @@
 }
 #AboutParagraph {
   color: #35193f;
-  background-color: rgba(255, 255, 255, 0.246);
+  background-color: #f7e7ff;
   font-family: Oswald;
   font-size: 50%;
   border-radius: 10%;

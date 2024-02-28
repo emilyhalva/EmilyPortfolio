@@ -23,24 +23,23 @@ export default {
         {
           name: "Light Blue Beanie",
           descriptions:
-            "Stay cozy and stylish with our blue beanie! Handcrafted from soft yarn, it's the perfect accessory to add a pop of color to your winter ensemble.",
-
+            "Stay cozy and stylish with this blue beanie! Handcrafted from soft yarn, it's the perfect accessory to add a pop of color to your winter ensemble.",
           link: "https://youtu.be/o0YCzR0TmtA?si=LMQXCbsZVD3IQ50S",
-          image: "./Resources/blueBeanie.png",
+          image: ["./Resources/blueBeanie.png", "./Resources/beanieOn_1.png"],
           tutorialFlag: true,
         },
         {
           name: "Green Brown Beanie",
           descriptions:
-            "Embrace nature's hues with our green brown beanie! Knit with care, it blends earthy tones for a versatile addition to any outfit.",
+            "Embrace nature's hues with this green brown beanie! Crocheted with care, it blends earthy tones for a versatile addition to any outfit.",
           link: "https://via.placeholder.com/150",
-          image: "./Resources/greenBrownBeanie.png",
+          image: ["./Resources/greenBrownBeanie.png"],
           tutorialFlag: false,
         },
         {
           name: "Sunset Shorts",
           descriptions:
-            "Relax in style with our sunset lounge shorts! Crafted from breathable yarn in warm tones, they're perfect for lounging at home or strolling in comfort.",
+            "Relax in style with these sunset lounge shorts! Crafted from breathable yarn in warm tones, they're perfect for lounging at home.",
           link: "https://youtu.be/a1_UBP0SkX8?si=IvlWV7w7-CLHvN3K",
           image: "./Resources/sunsetShorts.png",
           tutorialFlag: true,
@@ -48,7 +47,7 @@ export default {
         {
           name: "Grey Shorts",
           descriptions:
-            " Elevate your loungewear game with our grey shorts! Soft and comfortable, they're designed for lazy days at home or casual outings with friends.",
+            " Elevate your loungewear game with these grey shorts! Soft and comfortable, they're perfect for lazy days at home or casual outings with friends.",
           link: "https://youtu.be/XO314GJyJyY?si=NFglrnByThzfS8GA",
           image: "./Resources/greyShortsWhiteBack.png",
           tutorialFlag: true,
@@ -72,7 +71,7 @@ export default {
         {
           name: "Long Sleeve Top",
           descriptions:
-            "Experience the perfect blend of style and comfort in our crochet long sleeve white top, featuring a front tie and purple stripe accents at the back.",
+            "Experience the perfect blend of style and comfort in this crochet long sleeve white top, featuring a front tie and purple stripe accents at the back.",
           link: "https://youtu.be/tAy76ZjkUkg?si=9FeJk4wE9mIyrU2t",
           image: "./Resources/longsleeveShirt.png",
           tutorialFlag: true,
@@ -80,7 +79,7 @@ export default {
         {
           name: "Red Tank Top",
           descriptions:
-            "Make a statement in our red tank top with a charming tie detail at the neck! Effortlessly chic, it's perfect for adding a touch of flair to your everyday look.",
+            "Make a statement in this red tank top with a charming tie detail at the neck! Effortlessly chic, it's perfect for adding a touch of flair to any look.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/redTop.png",
           tutorialFlag: false,
@@ -88,7 +87,7 @@ export default {
         {
           name: "Orange Tank Top",
           descriptions:
-            "Embrace vibrant hues with our orange bralette! Crafted for both style and comfort, it's the perfect choice for adding a pop of color to your lingerie collection.",
+            "Embrace vibrant hues with this orange bralette! Crafted for both style and comfort, it's the perfect choice for adding a pop of color to your lingerie collection.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/orangeTop.png",
           tutorialFlag: false,
@@ -114,7 +113,7 @@ export default {
         {
           name: "White Roses",
           descriptions:
-            "Embrace the timeless elegance of our crochet white rose bouquet, expertly crafted to bring a touch of natural charm to any space.",
+            "Embrace the timeless elegance of this crochet white rose bouquet, expertly crafted to bring a touch of natural charm to any space.",
           link: "https://youtu.be/ptWYK10MeQU?si=oW-rp_qr2J5cAuR6",
           image: "./Resources/whiteRoses.png",
           tutorialFlag: true,
@@ -130,7 +129,7 @@ export default {
         {
           name: "Chunky Bee",
           descriptions:
-            "Meet your new cuddly companion – this adorable chunky bee is handmade with love and ready to bring a smile to your face",
+            "Meet your new cuddly companion – this adorable chunky bee is handmade with love and ready BEE part of your collection!",
           link: "https://via.placeholder.com/150",
           image: "./Resources/chunky_bee_side.png",
           tutorialFlag: false,
@@ -146,7 +145,7 @@ export default {
         {
           name: "Chunky Christmas Gnome",
           descriptions:
-            "Capture the festive spirit with our Chunky Christmas Gnome! Crafted with care and bursting with holiday cheer, this adorable gnome is the perfect addition to your seasonal decor.",
+            "Capture the festive spirit with this Chunky Christmas Gnome! Crafted with care and bursting with holiday cheer, this adorable gnome is the perfect addition to your seasonal decor.",
           link: "https://youtu.be/SfSms_Dozio?si=6HBJwv-qw-LW2-if",
           image: "./Resources/chunkyGnome.png",
           tutorialFlag: true,
@@ -156,7 +155,7 @@ export default {
         {
           name: "Chunky Blanket",
           descriptions:
-            "Indulge in the softness of our handmade grey chunky crochet blanket. Perfect for snuggling up on cool evenings, it adds a cozy touch to any space.",
+            "Indulge in the softness of a handmade chunky crochet blanket. Plush and perfect for snuggling up on cool evenings, it adds a cozy touch to any space.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/greyBlanket1.png",
           tutorialFlag: false,
@@ -164,7 +163,7 @@ export default {
         {
           name: "Peach Coaster",
           descriptions:
-            "Add a sweet touch to your table with our peach crochet coaster, crafted with care for a charming addition to any setting.",
+            "Add a sweet touch to your table with a peach crochet coaster, crafted with care for a charming addition to any setting.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/peachCoaster.png",
           tutorialFlag: false,
@@ -172,7 +171,7 @@ export default {
         {
           name: "Green Decorative Cushion",
           descriptions:
-            "Elevate your space with our green crochet decorative pillow, offering both style and comfort.",
+            "When I was still learning, I set out to create a purse. However, as I worked on it, the project grew larger than expected. Instead of a purse, I ended up with a pillow! It's funny how mistakes can lead to unexpected creations.",
           link: "https://via.placeholder.com/150",
           image: "./Resources/greenPillow.png",
           tutorialFlag: false,
@@ -188,7 +187,7 @@ export default {
         {
           name: "Bear Mug Cozie",
           descriptions:
-            "Add a charming twist to your coffee breaks with our bear-shaped mug cozie, designed to keep your beverage warm and your spirits high.",
+            "Add a charming twist to your coffee breaks with this bear-shaped mug cozie, designed to keep your beverage warm and your spirits high.",
           link: "https://youtu.be/wBm313_qcPg?si=q1Ftmspe7bQg5fKL",
           image: "./Resources/bearCozie.png",
           tutorialFlag: true,
@@ -196,7 +195,7 @@ export default {
         {
           name: "Farmers Market Tote",
           descriptions:
-            "Effortlessly blend style and sustainability with our contemporary brown tote, ideal for transporting your favorite market finds.",
+            "Effortlessly blend style and sustainability with a contemporary mesh tote, ideal for transporting your favorite market finds.",
           link: "https://youtu.be/GcuFJcBl36g?si=RjkN5zApQdQ95S-O",
           image: "./Resources/brownMarketBag.png",
           tutorialFlag: true,
@@ -210,7 +209,6 @@ export default {
           tutorialFlag: false,
         },
       ],
-      // show: false,
     };
   },
   methods: {
@@ -228,6 +226,7 @@ export default {
         <h2 class="pb-4 text-center">Garments</h2>
         <!-- Row for cards -->
         <v-row>
+          <!-- Individual Card screen occupation: Small Screen - half the screen, Med Screen - 1/3 the screen, Lg Screen: WHAT? -->
           <v-col
             v-for="clothingPiece in clothes"
             cols="12"
@@ -235,18 +234,31 @@ export default {
             md="4"
             lg="3"
           >
-            <v-card>
-              <v-img
+            <!-- Individual clothing cards -->
+            <v-card elevation="3">
+              <!-- <v-img
                 :src="clothingPiece.image"
                 height="200px"
                 cover="true"
                 class="puff-in-center"
-              ></v-img>
+              ></v-img> -->
+
+              <v-carousel show-arrows="hover">
+                <v-carousel-item
+                  v-for="(image, index) in clothingPiece.image"
+                  :key="index"
+                  :src="image"
+                  cover="true"
+                  height="200px"
+                ></v-carousel-item>
+              </v-carousel>
+
               <v-card-title>{{ clothingPiece.name }}</v-card-title>
               <v-card-subtitle>{{
                 clothingPiece.descriptions
               }}</v-card-subtitle>
 
+              <!-- Tutorial button and link -->
               <v-card-actions>
                 <v-btn
                   class="wiggle-on-hover"
@@ -262,6 +274,7 @@ export default {
                 >
               </v-card-actions>
 
+              <!-- Read more button -->
               <v-card-actions>
                 <v-btn color="#156669" variant="text"> Read More </v-btn>
                 <v-spacer></v-spacer>
@@ -272,7 +285,7 @@ export default {
                   @click="clothingPiece.show = !clothingPiece.show"
                 ></v-btn>
               </v-card-actions>
-
+              <!-- Expose read more -->
               <v-expand-transition up>
                 <div v-show="clothingPiece.show">
                   <v-divider></v-divider>
@@ -294,7 +307,7 @@ export default {
         <!-- Row for cards -->
         <v-row>
           <v-col v-for="flowerPiece in flowers" cols="12" sm="6" md="4" lg="3">
-            <v-card>
+            <v-card elevation="3">
               <v-img
                 :src="flowerPiece.image"
                 height="200px"
@@ -359,7 +372,7 @@ export default {
             md="4"
             lg="3"
           >
-            <v-card>
+            <v-card elevation="3">
               <v-img
                 :src="stuffedAnimal.image"
                 height="200px"
@@ -418,7 +431,7 @@ export default {
         <!-- Row for cards -->
         <v-row>
           <v-col v-for="otherPiece in others" cols="12" sm="6" md="4" lg="3">
-            <v-card>
+            <v-card elevation="3">
               <v-img
                 :src="otherPiece.image"
                 height="200px"
@@ -483,11 +496,11 @@ export default {
   background-color: #deebe9;
 }
 #stuffedAnimalsSegment {
-  background-color: #fef8f2;
+  background-color: #fff2f7;
 }
 
 #othersSegment {
-  background-color: #fff2f7;
+  background-color: #f2ecf5;
 }
 h2 {
   color: #156669;
@@ -517,7 +530,7 @@ h1 {
 
 /* Apply the animation to the button when hovered over */
 .wiggle-on-hover:hover {
-  animation: wiggle 0.7s ease infinite;
+  animation: wiggle 0.9s ease infinite;
 }
 
 /* ----------------------------------------------
