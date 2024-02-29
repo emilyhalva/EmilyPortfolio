@@ -8,9 +8,11 @@
         <v-row>
           <v-col cols="6" align-self="center">
             <div id="AboutGreeting">
-              <h2 style="color: white; display: ">Hello :) &nbsp;</h2>
-              <h2 style="color: purple; display: inline">Emily &nbsp;</h2>
-              <h2 style="color: white; display: inline">Here!</h2>
+              <div style="color: white; display: ">Hello :) &nbsp;</div>
+              <div>
+                <span style="color: purple; display: inline">Emily&nbsp;</span>
+                <span style="color: white; display: inline">Here!</span>
+              </div>
             </div>
             <v-container id="AboutParagraph">
               I started crocheting around 2 years back, and it's become my go-to
@@ -59,28 +61,30 @@
   border: 2px solid #35193f;
   box-shadow: 0 0 20px 5px #472254;
 }
-#AboutGreeting {
+#AboutGreeting div {
   text-align: left;
-  font-family: Oswald;
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: bold;
   flex: wrap;
-  font-size: 90%;
+  font-size: 3rem;
   @media only screen and (min-width: 600px) {
-    font-size: 94%;
+    font-size: 1rem;
   }
   @media only screen and (min-width: 960px) {
     font-size: 1.5rem;
   }
   @media only screen and (min-width: 1280px) {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   @media only screen and (min-width: 1904px) {
-    font-size: 100%;
+    font-size: 4rem;
   }
 }
 #AboutParagraph {
   color: #35193f;
   background-color: #f7e7ff;
-  font-family: Oswald;
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: bold;
   font-size: 50%;
   border-radius: 10%;
   padding: 20px;

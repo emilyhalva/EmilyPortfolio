@@ -18,4 +18,22 @@ import Collection from "./components/Collection.vue";
 import Home from "./components/Home.vue";
 </script>
 
-<style></style>
+<style>
+.sulphur-point-light {
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.sulphur-point-regular {
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sulphur-point-bold {
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+</style>

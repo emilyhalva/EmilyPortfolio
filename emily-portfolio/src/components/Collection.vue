@@ -41,7 +41,7 @@ export default {
           descriptions:
             "Relax in style with these sunset lounge shorts! Crafted from breathable yarn in warm tones, they're perfect for lounging at home.",
           link: "https://youtu.be/a1_UBP0SkX8?si=IvlWV7w7-CLHvN3K",
-          image: "./Resources/sunsetShorts.png",
+          image: ["./Resources/sunsetShorts.png"],
           tutorialFlag: true,
         },
         {
@@ -49,7 +49,7 @@ export default {
           descriptions:
             " Elevate your loungewear game with these grey shorts! Soft and comfortable, they're perfect for lazy days at home or casual outings with friends.",
           link: "https://youtu.be/XO314GJyJyY?si=NFglrnByThzfS8GA",
-          image: "./Resources/greyShortsWhiteBack.png",
+          image: ["./Resources/greyShortsWhiteBack.png"],
           tutorialFlag: true,
         },
         // {
@@ -73,7 +73,7 @@ export default {
           descriptions:
             "Experience the perfect blend of style and comfort in this crochet long sleeve white top, featuring a front tie and purple stripe accents at the back.",
           link: "https://youtu.be/tAy76ZjkUkg?si=9FeJk4wE9mIyrU2t",
-          image: "./Resources/longsleeveShirt.png",
+          image: ["./Resources/longsleeveShirt.png"],
           tutorialFlag: true,
         },
         {
@@ -81,7 +81,7 @@ export default {
           descriptions:
             "Make a statement in this red tank top with a charming tie detail at the neck! Effortlessly chic, it's perfect for adding a touch of flair to any look.",
           link: "https://via.placeholder.com/150",
-          image: "./Resources/redTop.png",
+          image: ["./Resources/redTop.png"],
           tutorialFlag: false,
         },
         {
@@ -89,7 +89,7 @@ export default {
           descriptions:
             "Embrace vibrant hues with this orange bralette! Crafted for both style and comfort, it's the perfect choice for adding a pop of color to your lingerie collection.",
           link: "https://via.placeholder.com/150",
-          image: "./Resources/orangeTop.png",
+          image: ["./Resources/orangeTop.png"],
           tutorialFlag: false,
         },
         {
@@ -97,7 +97,7 @@ export default {
           descriptions:
             "Stylish green crochet tank top offers adjustable straps and a chic tie-back detail for a personalized fit.",
           link: "https://via.placeholder.com/150",
-          image: "./Resources/greenTankTop.png",
+          image: ["./Resources/greenTankTop.png"],
           tutorialFlag: false,
         },
       ],
@@ -235,67 +235,81 @@ export default {
             lg="3"
           >
             <!-- Individual clothing cards -->
-            <v-card elevation="3">
-              <!-- <v-img
-                :src="clothingPiece.image"
-                height="200px"
-                cover="true"
-                class="puff-in-center"
-              ></v-img> -->
-
-              <v-carousel show-arrows="hover">
-                <v-carousel-item
-                  v-for="(image, index) in clothingPiece.image"
-                  :key="index"
-                  :src="image"
-                  cover="true"
+            <div class="d-flex justify-center">
+              <v-card elevation="3" max-width="273px">
+                <v-carousel
+                  v-if="clothingPiece.image.length > 1"
+                  show-arrows="hover"
+                  hide-delimiters
                   height="200px"
-                ></v-carousel-item>
-              </v-carousel>
-
-              <v-card-title>{{ clothingPiece.name }}</v-card-title>
-              <v-card-subtitle>{{
-                clothingPiece.descriptions
-              }}</v-card-subtitle>
-
-              <!-- Tutorial button and link -->
-              <v-card-actions>
-                <v-btn
-                  class="wiggle-on-hover"
-                  block
-                  elevation="1"
-                  variant="tonal"
-                  color="#769794"
-                  :href="clothingPiece.link"
-                  target="_blank"
-                  text
-                  v-if="clothingPiece.tutorialFlag"
-                  >Tutorial</v-btn
                 >
-              </v-card-actions>
+                  <v-carousel-item
+                    v-for="(image, index) in clothingPiece.image"
+                    :key="index"
+                    :src="image"
+                    cover
+                    class="puff-in-center"
+                  >
+                  </v-carousel-item>
+                </v-carousel>
 
-              <!-- Read more button -->
-              <v-card-actions>
-                <v-btn color="#156669" variant="text"> Read More </v-btn>
-                <v-spacer></v-spacer>
-                <v-btn
-                  :icon="
-                    clothingPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
-                  "
-                  @click="clothingPiece.show = !clothingPiece.show"
-                ></v-btn>
-              </v-card-actions>
-              <!-- Expose read more -->
-              <v-expand-transition up>
-                <div v-show="clothingPiece.show">
-                  <v-divider></v-divider>
+                <v-img
+                  v-else
+                  :src="clothingPiece.image[0]"
+                  height="200px"
+                  cover
+                ></v-img>
 
-                  <v-card-text>
-                    {{ clothingPiece.descriptions }}
-                  </v-card-text>
-                </div>
-              </v-expand-transition>
-            </v-card>
+                <v-card-title>{{ clothingPiece.name }}</v-card-title>
+                <v-card-subtitle>{{
+                  clothingPiece.descriptions
+                }}</v-card-subtitle>
+
+                <!-- Tutorial button and link -->
+                <v-card-actions>
+                  <v-btn
+                    class="wiggle-on-hover"
+                    block
+                    elevation="1"
+                    variant="tonal"
+                    color="#769794"
+                    :href="clothingPiece.link"
+                    target="_blank"
+                    text
+                    v-if="clothingPiece.tutorialFlag"
+                    >Tutorial</v-btn
+                  >
+                </v-card-actions>
+
+                <!-- Read more button -->
+                <v-card-actions>
+                  <v-btn
+                    color="#156669"
+                    variant="text"
+                    @click="clothingPiece.show = !clothingPiece.show"
+                  >
+                    Read More
+                  </v-btn>
+                  <v-spacer></v-spacer>
+                  <v-btn
+                    :icon="
+                      clothingPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
+                    "
+                    @click="clothingPiece.show = !clothingPiece.show"
+                  ></v-btn>
+                </v-card-actions>
+                <!-- Expose read more -->
+                <v-expand-transition up>
+                  <div v-show="clothingPiece.show">
+                    <v-divider></v-divider>
+
+                    <v-card-text>
+                      {{ clothingPiece.descriptions }}
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+            </div>
           </v-col>
         </v-row>
       </v-container>
@@ -308,11 +322,7 @@ export default {
         <v-row>
           <v-col v-for="flowerPiece in flowers" cols="12" sm="6" md="4" lg="3">
             <v-card elevation="3">
-              <v-img
-                :src="flowerPiece.image"
-                height="200px"
-                cover="true"
-              ></v-img>
+              <v-img :src="flowerPiece.image" height="200px" cover></v-img>
               <v-card-title>{{ flowerPiece.name }}</v-card-title>
               <v-card-subtitle>{{ flowerPiece.descriptions }}</v-card-subtitle>
               <v-card-actions>
@@ -373,11 +383,7 @@ export default {
             lg="3"
           >
             <v-card elevation="3">
-              <v-img
-                :src="stuffedAnimal.image"
-                height="200px"
-                cover="true"
-              ></v-img>
+              <v-img :src="stuffedAnimal.image" height="200px" cover></v-img>
               <v-card-title>{{ stuffedAnimal.name }}</v-card-title>
               <v-card-subtitle>{{
                 stuffedAnimal.descriptions
@@ -432,11 +438,7 @@ export default {
         <v-row>
           <v-col v-for="otherPiece in others" cols="12" sm="6" md="4" lg="3">
             <v-card elevation="3">
-              <v-img
-                :src="otherPiece.image"
-                height="200px"
-                cover="true"
-              ></v-img>
+              <v-img :src="otherPiece.image" height="200px" cover></v-img>
               <v-card-title>{{ otherPiece.name }}</v-card-title>
               <v-card-subtitle>{{ otherPiece.descriptions }}</v-card-subtitle>
               <v-card-actions>

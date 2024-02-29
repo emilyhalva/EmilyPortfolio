@@ -12,7 +12,7 @@
             </div>
           </v-col>
           <v-col cols="12" sm="12" md="6">
-            <div class="d-flex justify-end">
+            <div class="d-flex justify-end pa-6">
               <v-img
                 class="scale-in-center"
                 id="collageImg"
