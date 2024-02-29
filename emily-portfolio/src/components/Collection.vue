@@ -5,14 +5,6 @@ export default {
     return {
       clothes: [
         // {
-        //   name: "Cat Beanie",
-        //   descriptions: "cat description",
-        //   link: "https://youtu.be/YUhqyvy5cKg?si=w7XGmen1UVdgLt7h",
-        //   image: "https://via.placeholder.com/150",
-        // tutorialFlag:true,
-        //
-        // },
-        // {
         //   name: "Strawberry Cat Beanie",
         //   descriptions: 30,
         //   link: "https://via.placeholder.com/150",
@@ -20,6 +12,17 @@ export default {
         // tutorialFlag:false,
 
         // },
+        {
+          name: "Cat Beanie",
+          descriptions:
+            "Adorable crochet cat beanie. Featuring a playful twist on the classic beanie style, this pattern is perfect for beginners and seasoned crafters alike.",
+          link: "https://youtu.be/YUhqyvy5cKg?si=w7XGmen1UVdgLt7h",
+          image: [
+            "./Resources/catBeanieSmile.png",
+            "./Resources/catSideBeanie.png",
+          ],
+          tutorialFlag: true,
+        },
         {
           name: "Light Blue Beanie",
           descriptions:
@@ -69,20 +72,12 @@ export default {
 
         // },
         {
-          name: "Long Sleeve Top",
-          descriptions:
-            "Experience the perfect blend of style and comfort in this crochet long sleeve white top, featuring a front tie and purple stripe accents at the back.",
-          link: "https://youtu.be/tAy76ZjkUkg?si=9FeJk4wE9mIyrU2t",
-          image: ["./Resources/longsleeveShirt.png"],
-          tutorialFlag: true,
-        },
-        {
           name: "Red Tank Top",
           descriptions:
             "Make a statement in this red tank top with a charming tie detail at the neck! Effortlessly chic, it's perfect for adding a touch of flair to any look.",
-          link: "https://via.placeholder.com/150",
+          link: "https://youtu.be/rQiID7WqrBI?si=fF22ZfYqhdyW_BTO",
           image: ["./Resources/redTop.png"],
-          tutorialFlag: false,
+          tutorialFlag: true,
         },
         {
           name: "Orange Tank Top",
@@ -96,9 +91,20 @@ export default {
           name: "Green Tank Top",
           descriptions:
             "Stylish green crochet tank top offers adjustable straps and a chic tie-back detail for a personalized fit.",
-          link: "https://via.placeholder.com/150",
-          image: ["./Resources/greenTankTop.png"],
-          tutorialFlag: false,
+          link: "https://youtu.be/mSHUui7WPvQ?si=DIQrOMfej4Bv2pjY",
+          image: [
+            "./Resources/greenTankTop.png",
+            "./Resources/greenCloseTank.png",
+          ],
+          tutorialFlag: true,
+        },
+        {
+          name: "Long Sleeve Top",
+          descriptions:
+            "Experience the perfect blend of style and comfort in this crochet long sleeve white top, featuring a front tie and purple stripe accents at the back.",
+          link: "https://youtu.be/tAy76ZjkUkg?si=9FeJk4wE9mIyrU2t",
+          image: ["./Resources/longsleeveShirt.png"],
+          tutorialFlag: true,
         },
       ],
       flowers: [
@@ -115,7 +121,7 @@ export default {
           descriptions:
             "Embrace the timeless elegance of this crochet white rose bouquet, expertly crafted to bring a touch of natural charm to any space.",
           link: "https://youtu.be/ptWYK10MeQU?si=oW-rp_qr2J5cAuR6",
-          image: "./Resources/whiteRoses.png",
+          image: ["./Resources/whiteRoses.png"],
           tutorialFlag: true,
         },
         // {
@@ -131,7 +137,7 @@ export default {
           descriptions:
             "Meet your new cuddly companion – this adorable chunky bee is handmade with love and ready BEE part of your collection!",
           link: "https://via.placeholder.com/150",
-          image: "./Resources/chunky_bee_side.png",
+          image: ["./Resources/chunky_bee_side.png"],
           tutorialFlag: false,
         },
         {
@@ -139,7 +145,7 @@ export default {
           descriptions:
             "This adorable crocheted bee brings a touch of handmade charm to any space.",
           link: "https://youtu.be/HjKT5OgQJRo?si=VqCSJwNOKF2HrCSR",
-          image: "./Resources/smallBee.png",
+          image: ["./Resources/smallBee.png"],
           tutorialFlag: true,
         },
         {
@@ -147,7 +153,7 @@ export default {
           descriptions:
             "Capture the festive spirit with this Chunky Christmas Gnome! Crafted with care and bursting with holiday cheer, this adorable gnome is the perfect addition to your seasonal decor.",
           link: "https://youtu.be/SfSms_Dozio?si=6HBJwv-qw-LW2-if",
-          image: "./Resources/chunkyGnome.png",
+          image: ["./Resources/chunkyGnome.png"],
           tutorialFlag: true,
         },
       ],
@@ -157,7 +163,7 @@ export default {
           descriptions:
             "Indulge in the softness of a handmade chunky crochet blanket. Plush and perfect for snuggling up on cool evenings, it adds a cozy touch to any space.",
           link: "https://via.placeholder.com/150",
-          image: "./Resources/greyBlanket1.png",
+          image: ["./Resources/greyBlanket1.png"],
           tutorialFlag: false,
         },
         {
@@ -165,7 +171,7 @@ export default {
           descriptions:
             "Add a sweet touch to your table with a peach crochet coaster, crafted with care for a charming addition to any setting.",
           link: "https://via.placeholder.com/150",
-          image: "./Resources/peachCoaster.png",
+          image: ["./Resources/peachCoaster.png"],
           tutorialFlag: false,
         },
         {
@@ -173,7 +179,7 @@ export default {
           descriptions:
             "When I was still learning, I set out to create a purse. However, as I worked on it, the project grew larger than expected. Instead of a purse, I ended up with a pillow! It's funny how mistakes can lead to unexpected creations.",
           link: "https://via.placeholder.com/150",
-          image: "./Resources/greenPillow.png",
+          image: ["./Resources/greenPillow.png"],
           tutorialFlag: false,
         },
         // {
@@ -189,7 +195,7 @@ export default {
           descriptions:
             "Add a charming twist to your coffee breaks with this bear-shaped mug cozie, designed to keep your beverage warm and your spirits high.",
           link: "https://youtu.be/wBm313_qcPg?si=q1Ftmspe7bQg5fKL",
-          image: "./Resources/bearCozie.png",
+          image: ["./Resources/bearCozie.png", "./Resources/bearCozieBack.png"],
           tutorialFlag: true,
         },
         {
@@ -197,7 +203,7 @@ export default {
           descriptions:
             "Effortlessly blend style and sustainability with a contemporary mesh tote, ideal for transporting your favorite market finds.",
           link: "https://youtu.be/GcuFJcBl36g?si=RjkN5zApQdQ95S-O",
-          image: "./Resources/brownMarketBag.png",
+          image: ["./Resources/brownMarketBag.png"],
           tutorialFlag: true,
         },
         {
@@ -205,7 +211,7 @@ export default {
           descriptions:
             "Chic and functional, this grey crochet tote bag adds a touch of handmade charm to your everyday carry.",
           link: "https://via.placeholder.com/150",
-          image: "./Resources/greyBag.png",
+          image: ["./Resources/greyBag.png", "./Resources/greyBagCloseUp.png"],
           tutorialFlag: false,
         },
       ],
@@ -321,48 +327,81 @@ export default {
         <!-- Row for cards -->
         <v-row>
           <v-col v-for="flowerPiece in flowers" cols="12" sm="6" md="4" lg="3">
-            <v-card elevation="3">
-              <v-img :src="flowerPiece.image" height="200px" cover></v-img>
-              <v-card-title>{{ flowerPiece.name }}</v-card-title>
-              <v-card-subtitle>{{ flowerPiece.descriptions }}</v-card-subtitle>
-              <v-card-actions>
-                <v-btn
-                  class="wiggle-on-hover"
-                  block
-                  elevation="1"
-                  variant="tonal"
-                  color="#769794"
-                  :href="flowerPiece.link"
-                  target="_blank"
-                  text
-                  v-if="flowerPiece.tutorialFlag"
-                  >Tutorial</v-btn
+            <div class="d-flex justify-center">
+              <v-card elevation="3" max-width="273px">
+                <v-carousel
+                  v-if="flowerPiece.image.length > 1"
+                  show-arrows="hover"
+                  hide-delimiters
+                  height="200px"
                 >
-              </v-card-actions>
+                  <v-carousel-item
+                    v-for="(image, index) in flowerPiece.image"
+                    :key="index"
+                    :src="image"
+                    cover
+                    class="puff-in-center"
+                  >
+                  </v-carousel-item>
+                </v-carousel>
 
-              <v-card-actions>
-                <v-btn color="#156669" variant="text"> Read More </v-btn>
+                <v-img
+                  v-else
+                  :src="flowerPiece.image[0]"
+                  height="200px"
+                  cover
+                ></v-img>
 
-                <v-spacer></v-spacer>
+                <v-card-title>{{ flowerPiece.name }}</v-card-title>
+                <v-card-subtitle>{{
+                  flowerPiece.descriptions
+                }}</v-card-subtitle>
 
-                <v-btn
-                  :icon="
-                    flowerPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
-                  "
-                  @click="flowerPiece.show = !flowerPiece.show"
-                ></v-btn>
-              </v-card-actions>
+                <!-- Tutorial button and link -->
+                <v-card-actions>
+                  <v-btn
+                    class="wiggle-on-hover"
+                    block
+                    elevation="1"
+                    variant="tonal"
+                    color="#769794"
+                    :href="flowerPiece.link"
+                    target="_blank"
+                    text
+                    v-if="flowerPiece.tutorialFlag"
+                    >Tutorial</v-btn
+                  >
+                </v-card-actions>
 
-              <v-expand-transition up>
-                <div v-show="flowerPiece.show">
-                  <v-divider></v-divider>
+                <!-- Read more button -->
+                <v-card-actions>
+                  <v-btn
+                    color="#156669"
+                    variant="text"
+                    @click="flowerPiece.show = !flowerPiece.show"
+                  >
+                    Read More
+                  </v-btn>
+                  <v-spacer></v-spacer>
+                  <v-btn
+                    :icon="
+                      flowerPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
+                    "
+                    @click="flowerPiece.show = !flowerPiece.show"
+                  ></v-btn>
+                </v-card-actions>
+                <!-- Expose read more -->
+                <v-expand-transition up>
+                  <div v-show="flowerPiece.show">
+                    <v-divider></v-divider>
 
-                  <v-card-text>
-                    {{ flowerPiece.descriptions }}
-                  </v-card-text>
-                </div>
-              </v-expand-transition>
-            </v-card>
+                    <v-card-text>
+                      {{ flowerPiece.descriptions }}
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+            </div>
           </v-col>
         </v-row>
       </v-container>
@@ -382,50 +421,81 @@ export default {
             md="4"
             lg="3"
           >
-            <v-card elevation="3">
-              <v-img :src="stuffedAnimal.image" height="200px" cover></v-img>
-              <v-card-title>{{ stuffedAnimal.name }}</v-card-title>
-              <v-card-subtitle>{{
-                stuffedAnimal.descriptions
-              }}</v-card-subtitle>
-              <v-card-actions>
-                <v-btn
-                  class="wiggle-on-hover"
-                  block
-                  elevation="1"
-                  variant="tonal"
-                  color="#769794"
-                  :href="stuffedAnimal.link"
-                  target="_blank"
-                  text
-                  v-if="stuffedAnimal.tutorialFlag"
-                  >Tutorial</v-btn
+            <div class="d-flex justify-center">
+              <v-card elevation="3" max-width="273px">
+                <v-carousel
+                  v-if="stuffedAnimal.image.length > 1"
+                  show-arrows="hover"
+                  hide-delimiters
+                  height="200px"
                 >
-              </v-card-actions>
+                  <v-carousel-item
+                    v-for="(image, index) in stuffedAnimal.image"
+                    :key="index"
+                    :src="image"
+                    cover
+                    class="puff-in-center"
+                  >
+                  </v-carousel-item>
+                </v-carousel>
 
-              <v-card-actions>
-                <v-btn color="#156669" variant="text"> Read More </v-btn>
+                <v-img
+                  v-else
+                  :src="stuffedAnimal.image[0]"
+                  height="200px"
+                  cover
+                ></v-img>
 
-                <v-spacer></v-spacer>
+                <v-card-title>{{ stuffedAnimal.name }}</v-card-title>
+                <v-card-subtitle>{{
+                  stuffedAnimal.descriptions
+                }}</v-card-subtitle>
 
-                <v-btn
-                  :icon="
-                    stuffedAnimal.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
-                  "
-                  @click="stuffedAnimal.show = !stuffedAnimal.show"
-                ></v-btn>
-              </v-card-actions>
+                <!-- Tutorial button and link -->
+                <v-card-actions>
+                  <v-btn
+                    class="wiggle-on-hover"
+                    block
+                    elevation="1"
+                    variant="tonal"
+                    color="#769794"
+                    :href="stuffedAnimal.link"
+                    target="_blank"
+                    text
+                    v-if="stuffedAnimal.tutorialFlag"
+                    >Tutorial</v-btn
+                  >
+                </v-card-actions>
 
-              <v-expand-transition up>
-                <div v-show="stuffedAnimal.show">
-                  <v-divider></v-divider>
+                <!-- Read more button -->
+                <v-card-actions>
+                  <v-btn
+                    color="#156669"
+                    variant="text"
+                    @click="stuffedAnimal.show = !stuffedAnimal.show"
+                  >
+                    Read More
+                  </v-btn>
+                  <v-spacer></v-spacer>
+                  <v-btn
+                    :icon="
+                      stuffedAnimal.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
+                    "
+                    @click="stuffedAnimal.show = !stuffedAnimal.show"
+                  ></v-btn>
+                </v-card-actions>
+                <!-- Expose read more -->
+                <v-expand-transition up>
+                  <div v-show="stuffedAnimal.show">
+                    <v-divider></v-divider>
 
-                  <v-card-text>
-                    {{ stuffedAnimal.descriptions }}
-                  </v-card-text>
-                </div>
-              </v-expand-transition>
-            </v-card>
+                    <v-card-text>
+                      {{ stuffedAnimal.descriptions }}
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+            </div>
           </v-col>
         </v-row>
       </v-container>
@@ -437,48 +507,79 @@ export default {
         <!-- Row for cards -->
         <v-row>
           <v-col v-for="otherPiece in others" cols="12" sm="6" md="4" lg="3">
-            <v-card elevation="3">
-              <v-img :src="otherPiece.image" height="200px" cover></v-img>
-              <v-card-title>{{ otherPiece.name }}</v-card-title>
-              <v-card-subtitle>{{ otherPiece.descriptions }}</v-card-subtitle>
-              <v-card-actions>
-                <v-btn
-                  class="wiggle-on-hover"
-                  block
-                  elevation="1"
-                  variant="tonal"
-                  color="#769794"
-                  :href="otherPiece.link"
-                  target="_blank"
-                  text
-                  v-if="otherPiece.tutorialFlag"
-                  >Tutorial</v-btn
+            <div class="d-flex justify-center">
+              <v-card elevation="3" max-width="273px">
+                <v-carousel
+                  v-if="otherPiece.image.length > 1"
+                  show-arrows="hover"
+                  hide-delimiters
+                  height="200px"
                 >
-              </v-card-actions>
+                  <v-carousel-item
+                    v-for="(image, index) in otherPiece.image"
+                    :key="index"
+                    :src="image"
+                    cover
+                    class="puff-in-center"
+                  >
+                  </v-carousel-item>
+                </v-carousel>
 
-              <v-card-actions>
-                <v-btn color="#156669" variant="text"> Read More </v-btn>
+                <v-img
+                  v-else
+                  :src="otherPiece.image[0]"
+                  height="200px"
+                  cover
+                ></v-img>
 
-                <v-spacer></v-spacer>
+                <v-card-title>{{ otherPiece.name }}</v-card-title>
+                <v-card-subtitle>{{ otherPiece.descriptions }}</v-card-subtitle>
 
-                <v-btn
-                  :icon="
-                    otherPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
-                  "
-                  @click="otherPiece.show = !otherPiece.show"
-                ></v-btn>
-              </v-card-actions>
+                <!-- Tutorial button and link -->
+                <v-card-actions>
+                  <v-btn
+                    class="wiggle-on-hover"
+                    block
+                    elevation="1"
+                    variant="tonal"
+                    color="#769794"
+                    :href="otherPiece.link"
+                    target="_blank"
+                    text
+                    v-if="otherPiece.tutorialFlag"
+                    >Tutorial</v-btn
+                  >
+                </v-card-actions>
 
-              <v-expand-transition up>
-                <div v-show="otherPiece.show">
-                  <v-divider></v-divider>
+                <!-- Read more button -->
+                <v-card-actions>
+                  <v-btn
+                    color="#156669"
+                    variant="text"
+                    @click="otherPiece.show = !otherPiece.show"
+                  >
+                    Read More
+                  </v-btn>
+                  <v-spacer></v-spacer>
+                  <v-btn
+                    :icon="
+                      otherPiece.show ? 'mdi-chevron-up' : 'mdi-chevron-down'
+                    "
+                    @click="otherPiece.show = !otherPiece.show"
+                  ></v-btn>
+                </v-card-actions>
+                <!-- Expose read more -->
+                <v-expand-transition up>
+                  <div v-show="otherPiece.show">
+                    <v-divider></v-divider>
 
-                  <v-card-text>
-                    {{ otherPiece.descriptions }}
-                  </v-card-text>
-                </div>
-              </v-expand-transition>
-            </v-card>
+                    <v-card-text>
+                      {{ otherPiece.descriptions }}
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+            </div>
           </v-col>
         </v-row>
       </v-container>
