@@ -28,7 +28,11 @@ export default {
           descriptions:
             "Stay cozy and stylish with this blue beanie! Handcrafted from soft yarn, it's the perfect accessory to add a pop of color to your winter ensemble.",
           link: "https://youtu.be/o0YCzR0TmtA?si=LMQXCbsZVD3IQ50S",
-          image: ["./Resources/blueBeanie.png", "./Resources/beanieOn_1.png"],
+          image: [
+            "./Resources/blueBeanie.png",
+            "./Resources/beanieOn_1.png",
+            "./Resources/beanieOn_2.png",
+          ],
           tutorialFlag: true,
         },
         {
@@ -607,10 +611,10 @@ export default {
 }
 h2 {
   color: #156669;
-  font-family: american typewriter;
+  font-family: "Sulphur Point", sans-serif;
 }
 h1 {
-  font-family: american typewriter;
+  font-family: "Sulphur Point", sans-serif;
 }
 
 @keyframes wiggle {

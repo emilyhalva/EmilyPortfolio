@@ -48,7 +48,8 @@
   margin-left: 60px;
   padding-right: 100px;
   color: #156669;
-  font-family: Oswald;
+  font-family: "Sulphur Point", sans-serif;
+
   flex: wrap;
   text-shadow: #f6bbc0 2px 2px 0px, #f7c8cc 4px 4px 0px;
 
