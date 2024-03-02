@@ -67,6 +67,7 @@
   font-weight: bold;
   flex: wrap;
   font-size: 3rem;
+
   @media only screen and (min-width: 600px) {
     font-size: 1rem;
   }
@@ -88,6 +89,7 @@
   font-size: 50%;
   border-radius: 10%;
   padding: 20px;
+  filter: drop-shadow(10px 8px 13px #472254);
 
   @media only screen and (min-width: 600px) {
     font-size: 94%;

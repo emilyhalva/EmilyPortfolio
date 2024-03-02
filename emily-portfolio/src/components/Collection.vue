@@ -18,8 +18,8 @@ export default {
             "Adorable crochet cat beanie. Featuring a playful twist on the classic beanie style, this pattern is perfect for beginners and seasoned crafters alike.",
           link: "https://youtu.be/YUhqyvy5cKg?si=w7XGmen1UVdgLt7h",
           image: [
-            "./Resources/catBeanieSmile.png",
             "./Resources/catSideBeanie.png",
+            "./Resources/catBeanieSmile.png",
           ],
           tutorialFlag: true,
         },
@@ -67,14 +67,6 @@ export default {
         // tutorialFlag:true,
 
         // },
-        // {
-        //   name: "Grunge Mesh Sweater",
-        //   descriptions: 50,
-        //   link: "https://via.placeholder.com/150",
-        //   image: "https://via.placeholder.com/150",
-        // tutorialFlag:false,
-
-        // },
         {
           name: "Red Tank Top",
           descriptions:
@@ -109,6 +101,14 @@ export default {
           link: "https://youtu.be/tAy76ZjkUkg?si=9FeJk4wE9mIyrU2t",
           image: ["./Resources/longsleeveShirt.png"],
           tutorialFlag: true,
+        },
+        {
+          name: "Grunge Mesh Sweater",
+          descriptions:
+            "Mesh crochet crop top with long sleeves, featuring a stylish blue and black design.",
+          link: "https://via.placeholder.com/150",
+          image: ["./Resources/blueBlackMeshTop.png"],
+          tutorialFlag: false,
         },
       ],
       flowers: [
@@ -207,7 +207,10 @@ export default {
           descriptions:
             "Effortlessly blend style and sustainability with a contemporary mesh tote, ideal for transporting your favorite market finds.",
           link: "https://youtu.be/GcuFJcBl36g?si=RjkN5zApQdQ95S-O",
-          image: ["./Resources/brownMarketBag.png"],
+          image: [
+            "./Resources/brownMarketBag.png",
+            "./Resources/marketBagClose.png",
+          ],
           tutorialFlag: true,
         },
         {
