@@ -22,6 +22,22 @@ export default {
           text: "Home",
           to: "home",
         },
+        {
+          text: "Clothing",
+          to: "clothingSegment",
+        },
+        {
+          text: "Flowers",
+          to: "flowersSegment",
+        },
+        {
+          text: "Stuffed Animals",
+          to: "stuffedAnimalsSegment",
+        },
+        {
+          text: "Miscellaneous",
+          to: "othersSegment",
+        },
       ],
     };
   },
@@ -51,9 +67,43 @@ export default {
     <v-spacer></v-spacer>
     <div v-if="!isMobile()">
       <v-btn variant="text" @click="scrollToElement('home', -100)">Home</v-btn>
-      <v-btn variant="text" @click="scrollToElement('collection', -100)"
-        >Collection</v-btn
-      >
+      <!-- Hover activated dropdown on Collection button -->
+      <v-menu open-on-hover>
+        <template v-slot:activator="{ props }">
+          <v-btn @click="scrollToElement('collection', -100)" v-bind="props">
+            collection
+          </v-btn>
+        </template>
+        <!-- Items in dropdown on Collection button -->
+        <v-list style="color: #156669">
+          <v-list-item>
+            <v-btn
+              variant="text"
+              @click="scrollToElement('clothingSegment', -120)"
+              >Clothes</v-btn
+            >
+          </v-list-item>
+          <v-list-item>
+            <v-btn
+              variant="text"
+              @click="scrollToElement('flowersSegment', -120)"
+              >Flowers</v-btn
+            >
+          </v-list-item>
+          <v-list-item>
+            <v-btn
+              variant="text"
+              @click="scrollToElement('stuffedAnimalsSegment', -120)"
+              >Stuffies</v-btn
+            >
+          </v-list-item>
+          <v-list-item>
+            <v-btn variant="text" @click="scrollToElement('othersSegment', -70)"
+              >Others</v-btn
+            >
+          </v-list-item>
+        </v-list>
+      </v-menu>
       <!-- <v-btn variant="text" @click="scrollToElement('resources', -100)"
         >Resources</v-btn
       > -->
