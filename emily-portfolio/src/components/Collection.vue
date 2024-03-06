@@ -18,6 +18,7 @@ export default {
             "Adorable crochet cat beanie. Featuring a playful twist on the classic beanie style, this pattern is perfect for beginners and seasoned crafters alike.",
           link: "https://youtu.be/YUhqyvy5cKg?si=w7XGmen1UVdgLt7h",
           image: [
+            "./Resources/catBeanie.png",
             "./Resources/catSideBeanie.png",
             "./Resources/catBeanieSmile.png",
           ],
@@ -139,7 +140,7 @@ export default {
         {
           name: "Chunky Bee",
           descriptions:
-            "Meet your new cuddly companion – this adorable chunky bee is handmade with love and ready BEE part of your collection!",
+            "Meet your new cuddly companion – this adorable chunky bee is handmade with love and ready to BEE part of your collection!",
           link: "https://via.placeholder.com/150",
           image: ["./Resources/chunky_bee_side.png"],
           tutorialFlag: false,

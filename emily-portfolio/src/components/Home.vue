@@ -7,7 +7,7 @@
           <!-- Media Query -->
           <v-col cols="12" sm="12" md="6" align-self="center">
             <div id="welcomeMsg" class="slide-in-left">
-              <h2>Unwind and Explore: My Cozy Crochet Corner</h2>
+              <p>Unwind and Explore: My Cozy Crochet Corner</p>
               <p>Take a look around :)</p>
             </div>
           </v-col>
@@ -49,23 +49,32 @@
   padding-right: 100px;
   color: #156669;
   font-family: "Sulphur Point", sans-serif;
+  font-weight: 600;
 
   flex: wrap;
   text-shadow: #f6bbc0 2px 2px 0px, #f7c8cc 4px 4px 0px;
 
+  @media only screen and (max-width: 400px) {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: auto;
+    max-right: auto;
+    padding-right: 0;
+  }
   @media only screen and (min-width: 600px) {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   @media only screen and (min-width: 960px) {
     text-align: left;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
+  /* Standard Laptop Screen Size */
   @media only screen and (min-width: 1280px) {
-    font-size: 2.1rem;
+    font-size: 2.8rem;
   }
   @media only screen and (min-width: 1904px) {
-    font-size: 100%;
+    font-size: 3rem;
   }
 }
 #collageImg {
