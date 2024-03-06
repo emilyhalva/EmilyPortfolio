@@ -1,12 +1,10 @@
-<script></script>
-
 <template>
   <div id="about"></div>
   <div class="About">
     <div class="content">
-      <v-container style="margin-top: 5%">
+      <v-container style="margin-top: 10px">
         <v-row>
-          <v-col cols="12" sm="12" med="3" lg="6" align-self="center">
+          <v-col cols="12" sm="6" md="6" lg="6">
             <div class="greetingWrapper">
               <div id="AboutGreeting">
                 <div style="color: white; display: ">Hello :) &nbsp;</div>
@@ -29,11 +27,11 @@
               years myself, so don't hesitate to dive in!
             </v-container>
           </v-col>
-          <v-col cols="6">
-            <div class="d-flex justify-end align-end h-100">
+          <v-col cols="12" sm="6" md="6" lg="6">
+            <div class="d-flex justify-center align-end h-100">
               <v-img
                 id="aboutAvatar"
-                width="100%"
+                width="80%"
                 height="auto"
                 max-width="450px"
                 aspect-ratio="1/1"
@@ -66,7 +64,7 @@
   border: 2px solid #35193f;
   box-shadow: 0 0 20px 5px #472254;
 }
-.greeting-wrapper {
+.greetingWrapper {
   width: 100%;
   text-align: center; /* Center the text horizontally */
   margin-top: 20px; /* Add margin at the top */
@@ -80,10 +78,9 @@
   @media only screen and (max-width: 400px) {
     text-align: center;
     font-size: 2rem;
+    margin-top: 200px;
   }
-  @media only screen and (min-width: 600px) {
-    font-size: 2.2rem;
-  }
+
   @media only screen and (min-width: 960px) {
     font-size: 2.5rem;
   }
@@ -112,6 +109,13 @@
   }
   @media only screen and (min-width: 1904px) {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Styles for screens with a maximum width of 768px */
+  #AboutGreeting {
+    /* Custom styles */
   }
 }
 </style>

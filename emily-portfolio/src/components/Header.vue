@@ -10,10 +10,7 @@ export default {
           text: "Collection",
           to: "collection",
         },
-        {
-          text: "Resources",
-          to: "resources",
-        },
+
         {
           text: "About",
           to: "about",
@@ -53,7 +50,22 @@ export default {
       });
     },
   },
-  computed: {},
+  computed: {
+    filteredItems() {
+      // Filter out items that you don't want to show in the navigation drawer
+      const excludedItems = [
+        "Clothing",
+        "Flowers",
+        "Stuffed Animals",
+        "Miscellaneous",
+      ];
+
+      return this.items.filter((item) => {
+        // Example: Exclude "Clothing" item
+        return !excludedItems.includes(item.text);
+      });
+    },
+  },
 };
 </script>
 
@@ -114,9 +126,10 @@ export default {
   <v-navigation-drawer v-model="drawer" location="left" temporary>
     <v-list>
       <v-list-item
-        v-for="item in items"
+        v-for="item in filteredItems"
         :key="item.text"
         @click="
+          item;
           scrollToElement(item.to, -60);
           drawer = false;
         "
