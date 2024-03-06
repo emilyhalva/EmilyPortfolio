@@ -2,7 +2,7 @@
   <div id="about"></div>
   <div class="About">
     <div class="content">
-      <v-container style="margin-top: 10px">
+      <v-container style="margin-top: 10px" id="container">
         <v-row>
           <v-col cols="12" sm="6" md="6" lg="6">
             <div class="greetingWrapper">
@@ -55,9 +55,17 @@
   justify-content: center;
   align-items: center;
 }
+#container {
+  margin-top: 10px;
+  justify-items: center;
+  padding-top: 110px;
+}
 .content {
   display: flex;
   align-items: center;
+  height: 100%;
+  min-height: 100%;
+  overflow: auto;
 }
 #aboutAvatar {
   border-radius: 60px/40px;
@@ -67,7 +75,6 @@
 .greetingWrapper {
   width: 100%;
   text-align: center; /* Center the text horizontally */
-  margin-top: 20px; /* Add margin at the top */
 }
 #AboutGreeting {
   text-align: left;
@@ -78,7 +85,6 @@
   @media only screen and (max-width: 400px) {
     text-align: center;
     font-size: 2rem;
-    margin-top: 200px;
   }
 
   @media only screen and (min-width: 960px) {
