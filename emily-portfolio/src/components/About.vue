@@ -6,14 +6,19 @@
     <div class="content">
       <v-container style="margin-top: 5%">
         <v-row>
-          <v-col cols="6" align-self="center">
-            <div id="AboutGreeting">
-              <div style="color: white; display: ">Hello :) &nbsp;</div>
-              <div>
-                <span style="color: purple; display: inline">Emily&nbsp;</span>
-                <span style="color: white; display: inline">Here!</span>
+          <v-col cols="12" sm="12" med="3" lg="6" align-self="center">
+            <div class="greetingWrapper">
+              <div id="AboutGreeting">
+                <div style="color: white; display: ">Hello :) &nbsp;</div>
+                <div>
+                  <span style="color: purple; display: inline"
+                    >Emily&nbsp;</span
+                  >
+                  <span style="color: white; display: inline">Here!</span>
+                </div>
               </div>
             </div>
+
             <v-container id="AboutParagraph">
               I started crocheting around 2 years back, and it's become my go-to
               escape and a delightful way to let my creativity flow. From
@@ -61,21 +66,30 @@
   border: 2px solid #35193f;
   box-shadow: 0 0 20px 5px #472254;
 }
-#AboutGreeting div {
+.greeting-wrapper {
+  width: 100%;
+  text-align: center; /* Center the text horizontally */
+  margin-top: 20px; /* Add margin at the top */
+}
+#AboutGreeting {
   text-align: left;
   font-family: "Sulphur Point", sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   flex: wrap;
-  font-size: 3rem;
 
+  @media only screen and (max-width: 400px) {
+    text-align: center;
+    font-size: 2rem;
+  }
   @media only screen and (min-width: 600px) {
-    font-size: 1rem;
+    font-size: 2.2rem;
   }
   @media only screen and (min-width: 960px) {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
+  /* Standard Laptop Screen Size */
   @media only screen and (min-width: 1280px) {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   @media only screen and (min-width: 1904px) {
     font-size: 4rem;
@@ -86,14 +100,10 @@
   background-color: #f7e7ff;
   font-family: "Sulphur Point", sans-serif;
   font-weight: bold;
-  font-size: 50%;
   border-radius: 10%;
   padding: 20px;
   filter: drop-shadow(10px 8px 13px #472254);
 
-  @media only screen and (min-width: 600px) {
-    font-size: 94%;
-  }
   @media only screen and (min-width: 960px) {
     font-size: 1rem;
   }
@@ -101,7 +111,7 @@
     font-size: 1.5rem;
   }
   @media only screen and (min-width: 1904px) {
-    font-size: 100%;
+    font-size: 2rem;
   }
 }
 </style>

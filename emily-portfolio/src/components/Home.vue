@@ -54,6 +54,7 @@
   flex: wrap;
   text-shadow: #f6bbc0 2px 2px 0px, #f7c8cc 4px 4px 0px;
 
+  /* Standard phone screen size */
   @media only screen and (max-width: 400px) {
     text-align: center;
     font-size: 1.5rem;
@@ -74,7 +75,7 @@
     font-size: 2.8rem;
   }
   @media only screen and (min-width: 1904px) {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 #collageImg {
