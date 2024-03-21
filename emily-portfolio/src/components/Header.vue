@@ -7,6 +7,10 @@ export default {
       rail: true,
       items: [
         {
+          text: "Home",
+          to: "home",
+        },
+        {
           text: "Collection",
           to: "collection",
         },
@@ -15,10 +19,7 @@ export default {
           text: "About",
           to: "about",
         },
-        {
-          text: "Home",
-          to: "home",
-        },
+
         {
           text: "Clothing",
           to: "clothingSegment",
