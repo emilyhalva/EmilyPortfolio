@@ -23,6 +23,7 @@
   "homepage": "https://github.com/KyleKryza/EmilyPortfolio#readme",
   "dependencies": {
     "@splinetool/runtime": "^0.9.470",
-    "express": "^4.18.2"
+    "express": "^4.19.1",
+    "serve-static": "^2.0.0-beta.2"
   }
 }
