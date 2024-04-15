@@ -140,7 +140,7 @@ export default {
         {
           name: "Pierre the Penguin",
           descriptions:
-            "Meet one of the Woobles cutest creations, Pierre the Penguin! This adorable penguin is handmade with love and ready to waddle into your heart. A full kit equipped with yarn, stuffing, eyes, and instructions can be purchased at Woobles.com. Click the link below!",
+            "Meet one of the Woobles cutest family members, Pierre the Penguin! This adorable penguin is handmade with love and ready to waddle into your heart. A full beginners kit equipped with yarn, stuffing, eyes, and instructions can be purchased at Woobles.com. Click the link below! *DISCLAIMER: Butt not included in original instructions.* ",
           link: "https://thewoobles.com/products/penguin-crochet-kit",
           image: ["./Resources/pierreFront.png", "./Resources/pierreBack.png"],
           tutorialFlag: true,
