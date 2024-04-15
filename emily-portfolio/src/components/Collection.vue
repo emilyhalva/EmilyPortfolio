@@ -146,6 +146,18 @@ export default {
           tutorialFlag: true,
         },
         {
+          name: "Hatching Chick",
+          descriptions:
+            "This cute little chick is interactive and can either be hatching from an egg or wearing a cute little bonnet. The video tutorial is available if you click the link above!",
+          link: "https://youtu.be/yGx6At99QAo?si=CBmIwMLL4WGsb2t3",
+          image: [
+            "./Resources/chick1.png",
+            "./Resources/chick2.png",
+            "./Resources/chick3.png",
+          ],
+          tutorialFlag: true,
+        },
+        {
           name: "Chunky Bee",
           descriptions:
             "Meet your new cuddly companion – this adorable chunky bee is handmade with love and ready to BEE part of your collection!",
