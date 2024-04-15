@@ -138,6 +138,14 @@ export default {
       ],
       stuffedAnimals: [
         {
+          name: "Pierre the Penguin",
+          descriptions:
+            "Meet one of the Woobles cutest creations, Pierre the Penguin! This adorable penguin is handmade with love and ready to waddle into your heart. A full kit equipped with yarn, stuffing, eyes, and instructions can be purchased at Woobles.com. Click the link below!",
+          link: "https://thewoobles.com/products/penguin-crochet-kit",
+          image: ["./Resources/pierreFront.png", "./Resources/pierreBack.png"],
+          tutorialFlag: true,
+        },
+        {
           name: "Chunky Bee",
           descriptions:
             "Meet your new cuddly companion – this adorable chunky bee is handmade with love and ready to BEE part of your collection!",
