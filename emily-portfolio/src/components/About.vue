@@ -18,13 +18,15 @@
             </div>
 
             <v-container id="AboutParagraph">
-              I started crocheting around 2 years back, and it's become my go-to
-              escape and a delightful way to let my creativity flow. From
-              crafting clothing to adorable stuffed animals and useful items,
-              I've found joy in making a variety of things. Crochet might seem
-              intimidating at first, but I'm here to cheer on anyone who wants
-              to give it a shot. Remember, I've only been at it for about two
-              years myself, so don't hesitate to dive in!
+              I started crocheting at the beginning of 2022 as a way to
+              destress, and it's become my go-to escape and a delightful way to
+              let my creativity flow. From crafting clothing to adorable stuffed
+              animals and useful items, I've found joy in making a variety of
+              things. It feels rewarding to hold a project, knowing the patience
+              and time that has gone into it. Crochet might seem intimidating at
+              first, but I'm here to cheer on anyone who wants to give it a
+              shot. Remember, I've only been at it for about two years myself,
+              so don't hesitate to dive in!
             </v-container>
           </v-col>
           <v-col cols="12" sm="6" md="6" lg="6">
