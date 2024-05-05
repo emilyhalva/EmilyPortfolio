@@ -15,7 +15,7 @@ export default {
         {
           name: "Cat Beanie",
           descriptions:
-            "Adorable crochet cat beanie. Featuring a playful twist on the classic beanie style, this pattern is perfect for beginners and seasoned crafters alike.",
+            "Create this adorable crochet cat beanie. Featuring a playful twist on the classic beanie style, this pattern is perfect for beginners and seasoned crafters alike.",
           link: "https://youtu.be/YUhqyvy5cKg?si=w7XGmen1UVdgLt7h",
           image: [
             "./Resources/catBeanie.png",
@@ -27,7 +27,7 @@ export default {
         {
           name: "Light Blue Beanie",
           descriptions:
-            "Stay cozy and stylish with this blue beanie! Handcrafted from soft yarn, it's the perfect accessory to add a pop of color to your winter ensemble.",
+            "Stay cozy and stylish with this blue beanie! Perfect for beginners, this beanie is handcrafted from soft yarn and it's the perfect accessory to add a pop of color to your winter ensemble.",
           link: "https://youtu.be/o0YCzR0TmtA?si=LMQXCbsZVD3IQ50S",
           image: [
             "./Resources/blueBeanie.png",
@@ -39,7 +39,7 @@ export default {
         {
           name: "Green Brown Beanie",
           descriptions:
-            "Embrace nature's hues with this green brown beanie! Crocheted with care, it blends earthy tones for a versatile addition to any outfit.",
+            "Embrace nature's hues with this green brown beanie! Perfect for beginners, it blends earthy tones for a versatile addition to any outfit.",
           link: "https://via.placeholder.com/150",
           image: ["./Resources/greenBrownBeanie.png"],
           tutorialFlag: false,
@@ -47,7 +47,7 @@ export default {
         {
           name: "Sunset Shorts",
           descriptions:
-            "Relax in style with these sunset lounge shorts! Crafted from breathable yarn in warm tones, they're perfect for lounging at home.",
+            "Relax in style with these sunset lounge shorts! This pattern is a bit more advanced but a great gateway for beginners to step into creating pants and shorts. The waist portion is similar to building a beanie but it takes a turn when adding the leg holes. It's easier than it looks, give it a try and grow your crochet confidence!",
           link: "https://youtu.be/a1_UBP0SkX8?si=IvlWV7w7-CLHvN3K",
           image: ["./Resources/sunsetShorts.png"],
           tutorialFlag: true,
@@ -71,7 +71,7 @@ export default {
         {
           name: "Red Tank Top",
           descriptions:
-            "Make a statement in this red tank top with a charming tie detail at the neck! Effortlessly chic, it's perfect for adding a touch of flair to any look.",
+            "Make a statement in this red tank top with a charming tie detail at the neck! Effortlessly chic, it's perfect for adding a touch of flair to any look. This pattern is suited for intermediate crocheters because of the mesh detail.",
           link: "https://youtu.be/rQiID7WqrBI?si=fF22ZfYqhdyW_BTO",
           image: ["./Resources/redTop.png"],
           tutorialFlag: true,
@@ -79,7 +79,7 @@ export default {
         {
           name: "Orange Tank Top",
           descriptions:
-            "Embrace vibrant hues with this orange bralette! Crafted for both style and comfort, it's the perfect choice for adding a pop of color to your lingerie collection.",
+            "Embrace vibrant hues with this orange bralette! Crafted for both style and comfort, it's the perfect choice for adding a pop of color to your lingerie collection. Best suited for intermediate and advanced crocheters because of the ruffle detail.",
           link: "https://via.placeholder.com/150",
           image: ["./Resources/orangeTop.png"],
           tutorialFlag: false,
@@ -87,7 +87,7 @@ export default {
         {
           name: "Green Tank Top",
           descriptions:
-            "Stylish green crochet tank top offers adjustable straps and a chic tie-back detail for a personalized fit.",
+            "Stylish green crochet tank top offers adjustable straps and a chic tie-back detail for a personalized fit. Best suited for intermediate and advanced crocheters.",
           link: "https://youtu.be/mSHUui7WPvQ?si=DIQrOMfej4Bv2pjY",
           image: [
             "./Resources/greenTankTop.png",
@@ -98,7 +98,7 @@ export default {
         {
           name: "Long Sleeve Top",
           descriptions:
-            "Experience the perfect blend of style and comfort in this crochet long sleeve white top, featuring a front tie and purple stripe accents at the back.",
+            "Experience the perfect blend of style and comfort in this crochet long sleeve white top, featuring a front tie and purple stripe accents at the back. Best suited for intermediate and advanced crocheters.",
           link: "https://youtu.be/tAy76ZjkUkg?si=9FeJk4wE9mIyrU2t",
           image: ["./Resources/longsleeveShirt.png"],
           tutorialFlag: true,
@@ -106,7 +106,7 @@ export default {
         {
           name: "Grunge Mesh Sweater",
           descriptions:
-            "Mesh crochet crop top with long sleeves, featuring a stylish blue and black design.",
+            "Mesh crochet crop top with long sleeves, featuring a stylish blue and black design. Best suited for intermediate and advanced crocheters.",
           link: "https://via.placeholder.com/150",
           image: ["./Resources/blueBlackMeshTop.png"],
           tutorialFlag: false,
@@ -124,7 +124,7 @@ export default {
         {
           name: "White Roses",
           descriptions:
-            "Embrace the timeless elegance of this crochet white rose bouquet, expertly crafted to bring a touch of natural charm to any space.",
+            "Embrace the timeless elegance of this crochet white rose bouquet, expertly crafted to bring a touch of natural charm to any space. This pattern is perfect for beginners and seasoned crafters alike.",
           link: "https://youtu.be/ptWYK10MeQU?si=oW-rp_qr2J5cAuR6",
           image: ["./Resources/whiteRoses.png"],
           tutorialFlag: true,
@@ -218,7 +218,7 @@ export default {
         {
           name: "Bear Mug Cozie",
           descriptions:
-            "Add a charming twist to your coffee breaks with this bear-shaped mug cozie, designed to keep your beverage warm and your spirits high.",
+            "Add a charming twist to your coffee breaks with this bear-shaped mug cozie, designed to keep beverages warm and spirits high.",
           link: "https://youtu.be/wBm313_qcPg?si=q1Ftmspe7bQg5fKL",
           image: ["./Resources/bearCozie.png", "./Resources/bearCozieBack.png"],
           tutorialFlag: true,
@@ -226,7 +226,7 @@ export default {
         {
           name: "Farmers Market Tote",
           descriptions:
-            "Effortlessly blend style and sustainability with a contemporary mesh tote, ideal for transporting your favorite market finds.",
+            "Effortlessly blend style and sustainability with a contemporary mesh tote, ideal for transporting your favorite market finds. This was one of the first pieces I created which gives me confidence to say it's suited for beginner crocheters.",
           link: "https://youtu.be/GcuFJcBl36g?si=RjkN5zApQdQ95S-O",
           image: [
             "./Resources/brownMarketBag.png",
